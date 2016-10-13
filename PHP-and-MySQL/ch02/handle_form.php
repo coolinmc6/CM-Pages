@@ -27,6 +27,14 @@
 	<p>We will reply to you at <i>$email</i>.</p>
 	<p>Your age is $age and your gender is $gender</p>";
 
+	echo "<h4>Validations</h4>";
+
+	if (!empty($_POST['name'])) {
+		echo "<p class='text-danger'>Name is confirmed!</p>";
+	} else {
+		echo "<p>You didn't enter your name!</p>";
+	}
+
 	 ?>
 	 <p>Go back to the form <a href="form.php">here</a></p>
 
