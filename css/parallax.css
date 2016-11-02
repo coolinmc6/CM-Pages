@@ -1,0 +1,92 @@
+/*parallax.css*/
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #222;
+	font-family: serif;
+	font-size: 1.2rem;
+	line-height: 1.4rem;
+	/*background-color: red;*/
+}
+.nav {
+	background-color: #222;
+	height: 50px;
+	padding-left: 50px;
+}
+.nav ul {
+	list-style-type: none;
+}
+.nav ul li {
+	display: inline-block;
+	color: white;
+	/*width: 50px;*/
+	height: 50px;
+	padding: 10px;
+	padding-top: 15px;
+	/*margin-right: 10px;*/
+	vertical-align: baseline;
+}
+.nav ul li:hover {
+	color: black;
+	background-color: green;
+}
+h2 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.text {
+	
+	padding: 2rem 4rem;
+}
+.white {
+	background-color: white;
+	color: black;
+}
+.black {
+	background-color: #000;
+	color: white;
+}
+.parallax {
+	/* The image used */
+	background-image: url("../images/double-knot-bckgrnd.jpg");
+
+	/* Full height */
+	height: 500px;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #000;
+	opacity: 0.5;
+}
+.demo {
+	border-radius: 5%;
+	font-size: 2.5rem;
+	width: 250px;
+	height: 80px;
+	background-color: #1985A1;
+	color: white;
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 100px;
+	z-index: 1;
+}
+.pic1 {
+		/* The image used */
+	background-image: url("../images/excavator_1990_cat.jpg");
+
+	/* Full height */
+	height: 500px;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.5;
+	
+	
+}

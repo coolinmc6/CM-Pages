@@ -24,6 +24,7 @@
 			<li>Here is the original site: <a href="http://www.doubleknotphilly.com/">DoubleKnot</a>.</li>
 			<li>They do an overlay div with some opacity (0.9) and make it black.  I did it another way but should play with both.</li>
 		</ul>
+		<li><a href="positioning1.php">Positioning</a></li>
 	</ul>
 		
 	

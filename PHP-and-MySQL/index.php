@@ -89,6 +89,21 @@
 		</ul>
 		<h2>Chapter 5: Advanced SQL and MySQL</h2>	
 		<ul>
+			<li>Primary keys => must always have a value, never change value, be unique 
+			for each record in the table.</li>
+			<li>He recommends naming Primary Keys with a hint to what the name of the table
+			is...i.e. user_id.</li>
+			<li>Relationships: one-to-one, one-to-many, many-to-many.</li>
+			<li>Break down many-to-many relationships into two one-to-many 
+			relationships</li>
+			<li>Normalization => normal forms are a series of rules for the organization
+			of the database.</li>
+			<li><strong>First Normal Compliant (1NF)</strong></li>
+			<ul>
+				<li>each column only contains one value</li>
+				<li>no table can have repeating columns for related data</li>
+				<li></li>
+			</ul>
 			
 		</ul>
 
