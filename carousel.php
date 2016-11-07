@@ -124,5 +124,8 @@ $name = 'Bob Marley';
 	echo 'var name = ' . json_encode($name) . ';';
 	echo '</script>';
 	?>
+	<script>
+		console.log(name);
+	</script>
 </body>
 </html>
