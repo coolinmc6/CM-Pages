@@ -1,0 +1,11 @@
+/*index.css*/
+
+.content {
+	padding: 1rem 2rem;
+}
+#confirm-div {
+	display: none;
+	width: 90vw;
+	height: 20vh;
+	background-color: #88f;
+}

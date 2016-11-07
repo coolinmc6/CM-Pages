@@ -6,6 +6,7 @@
 	<title>Colin's Repo Index</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 	<?php include_once("header.php") ?>
@@ -25,7 +26,16 @@
 			<li>They do an overlay div with some opacity (0.9) and make it black.  I did it another way but should play with both.</li>
 		</ul>
 		<li><a href="positioning1.php">Positioning</a></li>
+		<li><a href="parallax.php">Parallax</a></li>
+
 	</ul>
+	<hr>
+	<div class="content">
+		<h1>Random Items</h1>
+		<button onClick="showDiv()">Show the Div</button>
+		<div id="confirm-div"></div>
+		<a href="jump.php" onClick="return confirm('Are you sure?')">Reload page if Yes</a>
+	</div>
 		
 	
 	
@@ -33,5 +43,17 @@
 	<?php include_once("footer.php") ?>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script>
+		var confDiv = document.getElementById('confirm-div');
+		var showDiv = function(){
+			var conf = confirm("Are you sure you want to show the div?");
+			
+			if (conf) {
+				confDiv.style.display = 'block';
+			} else {
+				confDiv.style.display = 'none';
+			}
+		}
+	</script>
 </body>
 </html>
