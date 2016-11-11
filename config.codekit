@@ -90,6 +90,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/camera.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1894,
+		"inputAbbreviatedPath": "\/images\/camera.png",
+		"outputAbbreviatedPath": "\/images\/camera.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/double-knot-bckgrnd.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -141,6 +152,28 @@
 		"initialSize": 347152,
 		"inputAbbreviatedPath": "\/images\/excavator_2016_cat.jpeg",
 		"outputAbbreviatedPath": "\/images\/excavator_2016_cat.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/image.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1622,
+		"inputAbbreviatedPath": "\/images\/image.png",
+		"outputAbbreviatedPath": "\/images\/image.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Soccerball.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50861,
+		"inputAbbreviatedPath": "\/images\/Soccerball.png",
+		"outputAbbreviatedPath": "\/images\/Soccerball.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -219,6 +252,46 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/PHP-Web-Dev-4th\/ch34-ajax\/ajax_functions.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/PHP-Web-Dev-4th\/ch34-ajax\/ajax_functions.js",
+		"outputAbbreviatedPath": "\/PHP-Web-Dev-4th\/ch34-ajax\/min\/ajax_functions-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/PHP-Web-Dev-4th\/ch34-ajax\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/PHP-Web-Dev-4th\/ch34-ajax\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/PHP-Web-Dev-4th\/ch34-ajax\/min\/ajax_functions-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/PHP-Web-Dev-4th\/ch34-ajax\/min\/ajax_functions-min.js",
+		"outputAbbreviatedPath": "\/PHP-Web-Dev-4th\/ch34-ajax\/min\/min\/ajax_functions-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/PHP-Web-Dev-4th\/ch34-ajax\/servertime.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/PHP-Web-Dev-4th\/ch34-ajax\/servertime.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/position-notes.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -281,6 +354,24 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stretchy-navigation\/add.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/stretchy-navigation\/add2.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stretchy-navigation\/add2.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/stretchy-navigation\/css\/add2.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stretchy-navigation\/css\/add2.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

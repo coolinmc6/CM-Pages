@@ -27,6 +27,9 @@
 		</ul>
 		<li><a href="positioning1.php">Positioning</a></li>
 		<li><a href="parallax.php">Parallax</a></li>
+		<li><a href="stretchy-navigation/add.html">Stretchy Navigation: Add</a></li>
+		<li><a href="stretchy-navigation/edit.html">Stretchy Navigation: Edit</a></li>
+		<li><a href="stretchy-navigation/index.html">Stretchy Navigation: Index</a></li>
 
 	</ul>
 	<hr>
