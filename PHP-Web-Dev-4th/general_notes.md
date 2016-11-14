@@ -4,7 +4,7 @@
 
 17. Implementing Authentication with PHP and MySQL - COMPLETE
 
-23. Using Session Control in PHP => not finished, go to p. 536 (520 in book)
+23. Using Session Control in PHP - COMPLETE
 
 # General Questions
 
@@ -13,4 +13,4 @@
 
 # General Notes
 - copying and paste code in => smart quotes are brought in so they don't work; that goes
-for both single and double quotes
+for both single and double quotes.  They can be successfully copied into MySQL workbench

@@ -1,4 +1,3 @@
-<!-- members_only.php -->
 <?php
 	session_start();
 

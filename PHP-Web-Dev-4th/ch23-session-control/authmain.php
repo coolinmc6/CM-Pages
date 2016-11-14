@@ -1,4 +1,3 @@
-<!-- authmain.php -->
 <?php
 	session_start();
 
@@ -10,8 +9,16 @@
 		$userid = $_POST['userid'];
 		$password = $_POST['password'];
 
+		// WORK
+		$db_password = 'password';
+		$db_name = 'php_web_dev_4th';
+
+		// HOME
+		// $db_password = '';		
+		// $db_name = 'php_web_dev_4th';
+
 		//						$host, $username, $password, $dbname
-		$db_conn = new mysqli('localhost', 'root', '', 'php_web_dev_4th');
+		$db_conn = new mysqli('localhost', 'root', $db_password, $db_name);
 
 		if (mysqli_connect_errno()) {
 			echo 'Connection to database failed:' . mysqli_connect_error();

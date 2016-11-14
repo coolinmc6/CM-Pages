@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<!-- ch23_notes.md -->
+
+<h1 id="chapter23:usingsessioncontrolinphp">Chapter 23: Using Session Control in PHP</h1>
+
+<p>Localhosts:
+work - http://localhost:8888/CM-Pages/PHP-Web-Dev&#8211;4th/ch23-session-control/authmain.php
+home - </p>
+
+<ul>
+<li>The idea of session control is to be able to track a user during a single session on a
+website.</li>
+<li>Sessions in PHP are driven by a unique session ID, a cryptographically random number.</li>
+<li>Cookies are a different solution to the problem of preserving state across a number of
+transactions while still having a clean-looking URL</li>
+<li>A cookie is a small piece of information that scripts can store on a client-side machine.</li>
+<li>You can manually set cookies in PHP using the setcookie() function.</li>
+<li>If you set a cookie as =&gt; setcookie (‘mycookie’, ‘value’);</li>
+<li>you will have access to the cookie via =&gt; $_COOKIE[‘mycookie’].</li>
+<li>One tip is that cookie headers must besent before any other headers; otherwise, they
+will not work</li>
+<li>PHP uses cookies by default with sessions</li>
+<li>The basic steps of using sessions are</li>
+<li>Starting a session</li>
+<li>Registering session variables</li>
+<li>Using session variables</li>
+<li>Deregistering variables and destroying the session</li>
+<li>Starting a Session</li>
+<li>The first, and simplest, is to begin a script with a call to the session_start() function</li>
+<li>Registering session variables</li>
+<li>To create a session variable, you simply set an element in this array, as follows:
+$_SESSION[‘myvar’] = 5;</li>
+<li>Using Session Variables</li>
+<li>Here we are thus far:
+
+<ul>
+<li>first start a session calling session_start().</li>
+<li>You can then access the variable via the $_SESSION superglobal array—for example,
+as $_SESSION[‘myvar’].</li>
+</ul></li>
+<li>You can check a variable to see whether it is a registered session variable by checking
+ in $_SESSION:
+
+<ul>
+<li>if (isset($_SESSION[‘myvar’]))</li>
+</ul></li>
+<li>Deregistering variables and destroying the session</li>
+<li>When you are finished with a session variable, you can unset it. You can do this directly
+by unsetting the appropriate element of the <span class="math">\(_SESSION array, as in this example:
+    - unset(\)</span>_SESSION[‘myvar’]);</li>
+<li>after unsetting the variables, do: session_destroy();</li>
+<li>After you have used the variable, you unset it.The session still exists, but the variable
+$_SESSION[‘sess_var’] no longer exists.</li>
+<li>Possibly the most common use of session control is to keep track of users after they
+have been authenticated via a login mechanism</li>
+<li>STOP =&gt; pg. 517 (in the book, 533 in the pdf)</li>
+<li>Chapter 17 -&gt; Implementing Authentication with PHP and MySQL
+
+<ul>
+<li>do this first and the come back to finish this chapter&#8230;and THEN chapter 27</li>
+</ul></li>
+<li>If a form&#8217;s action=&#8217;thispage.php&#8217; is the same page then when the user clicks the submit
+button on the form, this script is reinvoked, and you start again from the top.</li>
+</ul>
+
+<p>11/16/2016
+ - database has been created called php_web_dev_4th with the table &#8216;authorized_users&#8217;
+ - Authorization has been successfully setup</p>
+
+</body>
+</html>

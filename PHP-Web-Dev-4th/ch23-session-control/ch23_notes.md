@@ -1,6 +1,10 @@
 <!-- ch23_notes.md -->
 # Chapter 23: Using Session Control in PHP
 
+Localhosts:
+work - http://localhost:8888/CM-Pages/PHP-Web-Dev-4th/ch23-session-control/authmain.php
+home - 
+
 - The idea of session control is to be able to track a user during a single session on a
 website.
 - Sessions in PHP are driven by a unique session ID, a cryptographically random number.
@@ -37,7 +41,7 @@ will not work
 		- unset($_SESSION[‘myvar’]);
   - after unsetting the variables, do: session_destroy();
 - After you have used the variable, you unset it.The session still exists, but the variable
-$_SESSION[‘sess_var’] no longer exists.
+$\_SESSION[‘sess_var’] no longer exists.
 - Possibly the most common use of session control is to keep track of users after they
 have been authenticated via a login mechanism
 - STOP => pg. 517 (in the book, 533 in the pdf)
@@ -46,6 +50,9 @@ have been authenticated via a login mechanism
 - If a form's action='thispage.php' is the same page then when the user clicks the submit 
 button on the form, this script is reinvoked, and you start again from the top.
 
+11/16/2016
+  - database has been created called php\_web\_dev\_4th with the table 'authorized_users'
+  - Authorization has been successfully setup
 
 
 
