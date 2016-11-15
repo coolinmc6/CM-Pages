@@ -13,18 +13,33 @@ the actual PHP/SQL
 - Here's an example repo: https://github.com/hankslewis/PHPbookmark
 - Here's another okay source but no code: http://www.roguehangar.com/rogueserver/htdocs/WellingThompson/start.html
 
+- Last Page: 582 (599 pdf)
 
-## Application Files
+## Web Application Files
 
-## bookmark\_fns
+### bookmark\_fns
 - appears to just be a bunch of require_once files
 - the rationale behind this is because you will need these 5 files "scripts" in most pages so it's
 easier to include one file instead of five
+
+### data\_valid\_fns.php
+- contains the filled\_out() and valid\_email() functions
+
+### db_fns.php
+- db_connect() function.  
+  - This function simply provides a single location that contains the username and password 
+  to connect to the database. That way, if you change the database password, you need to 
+  change only one file in the application
+- As a refresher, the new mysqli function takes these parameters:
+  - $result = new mysqli($host, $user, $password, $db_name);
+  - $result = new mysqli('localhost', 'root', 'password', 'php\_web\_dev\_4th');
 
 
 ### login.php
 - requires bookmark\_fns.php and then has some functions which I guess are all in bookmark\_fns
 
+### member.php
+- 
 
 ### output\_fns.php
 - each of these functions simply output various parts for the page
@@ -47,6 +62,19 @@ of the page is just passed into the function and thus I don't need to rewrite a 
 - CM => remember this.....
 
 ### register\_new.php
-- p. 594
+- Start the session and then do a series of checks which I believe are custom functions
+- They are checking a number of things:
+  - completion of the form => filled_out()
+  - valid email => valid_email()
+  - password1 equals password2 => conditional p1 != p2
+  - strength of the password => 6 < length(p1) < 16
+- After checking, they attempt to register (which probably checks for uniqueness of user name)
+- I need to learn how the try-catch logic works as well as the exceptions.  Where do they show up?  Is it like
+a flash message in Rails?
+  - The body of the script takes place in a try block because you check a number of conditions. If any of them 
+  fail, execution will fall through to the catch block
 
+### user\_auth\_fns.php
+- p. 583 (598)
+-
 

@@ -9,22 +9,23 @@
 <h1 id="chapter27:buildinguserauthenticationandpersonalization">Chapter 27: Building User Authentication and Personalization</h1>
 
 <ul>
-<li>The project itself is a bookmarking site with personalization means that based on what they
+<li><p>The project itself is a bookmarking site with personalization means that based on what they
 like, I recommend more shit they&#8217;ll like. Page 569 (585 pdf) has more on the requirements of
-the project which I should detail at some point</li>
-<li>p. 574 (590 pdf) has the setup for the database.</li>
-<li>CM =&gt; I need to learn what index(username) and index(bm_URL) do as well as primary key.</li>
-<li>Once I&#8217;ve set these up, I can start coding.</li>
-<li>CM=&gt; Copy and paste the items that isn&#8217;t real coding (i.e. references other pages) and code
-the actual PHP/SQL</li>
-<li>I can&#8217;t access the source code&#8230;google part of the code you want and it&#8217;ll appear</li>
-<li>Here&#8217;s an example repo: https://github.com/hankslewis/PHPbookmark</li>
-<li>Here&#8217;s another okay source but no code: http://www.roguehangar.com/rogueserver/htdocs/WellingThompson/start.html</li>
+the project which I should detail at some point</p></li>
+<li><p>p. 574 (590 pdf) has the setup for the database.</p></li>
+<li><p>CM =&gt; I need to learn what index(username) and index(bm_URL) do as well as primary key.</p></li>
+<li><p>Once I&#8217;ve set these up, I can start coding.</p></li>
+<li><p>CM=&gt; Copy and paste the items that isn&#8217;t real coding (i.e. references other pages) and code
+the actual PHP/SQL</p></li>
+<li><p>I can&#8217;t access the source code&#8230;google part of the code you want and it&#8217;ll appear</p></li>
+<li><p>Here&#8217;s an example repo: https://github.com/hankslewis/PHPbookmark</p></li>
+<li><p>Here&#8217;s another okay source but no code: http://www.roguehangar.com/rogueserver/htdocs/WellingThompson/start.html</p></li>
+<li><p>Last Page: 582 (599 pdf)</p></li>
 </ul>
 
-<h2 id="applicationfiles">Application Files</h2>
+<h2 id="webapplicationfiles">Web Application Files</h2>
 
-<h2 id="bookmark_fns">bookmark_fns</h2>
+<h3 id="bookmark_fns">bookmark_fns</h3>
 
 <ul>
 <li>appears to just be a bunch of require_once files</li>
@@ -32,11 +33,31 @@ the actual PHP/SQL</li>
 easier to include one file instead of five</li>
 </ul>
 
+<h3 id="data_valid_fns.php">data_valid_fns.php</h3>
+
+<ul>
+<li>contains the filled_out() and valid_email() functions</li>
+</ul>
+
+<h3 id="db_fns.php">db_fns.php</h3>
+
+<ul>
+<li>db_connect() function.</li>
+<li>This function simply provides a single location that contains the username and password
+ to connect to the database. That way, if you change the database password, you need to
+ change only one file in the application</li>
+<li>As a refresher, the new mysqli function takes these parameters:</li>
+<li>$result = new mysqli($host, $user, $password, $db_name);</li>
+<li>$result = new mysqli(&#8216;localhost&#8217;, &#8216;root&#8217;, &#8216;password&#8217;, &#8216;php_web_dev_4th&#8217;);</li>
+</ul>
+
 <h3 id="login.php">login.php</h3>
 
 <ul>
 <li>requires bookmark_fns.php and then has some functions which I guess are all in bookmark_fns</li>
 </ul>
+
+<h2 id="member.php">### member.php</h2>
 
 <h3 id="output_fns.php">output_fns.php</h3>
 
@@ -67,8 +88,22 @@ of the page is just passed into the function and thus I don&#8217;t need to rewr
 <h3 id="register_new.php">register_new.php</h3>
 
 <ul>
-<li>p. 594</li>
+<li>Start the session and then do a series of checks which I believe are custom functions</li>
+<li>They are checking a number of things:</li>
+<li>completion of the form =&gt; filled_out()</li>
+<li>valid email =&gt; valid_email()</li>
+<li>password1 equals password2 =&gt; conditional p1 != p2</li>
+<li>strength of the password =&gt; 6 &lt; length(p1) &lt; 16</li>
+<li>After checking, they attempt to register (which probably checks for uniqueness of user name)</li>
+<li>I need to learn how the try-catch logic works as well as the exceptions. Where do they show up? Is it like
+a flash message in Rails?</li>
+<li>The body of the script takes place in a try block because you check a number of conditions. If any of them
+ fail, execution will fall through to the catch block</li>
 </ul>
+
+<h3 id="user_auth_fns.php">user_auth_fns.php</h3>
+
+<h2 id="-p.583598">- p. 583 (598)</h2>
 
 </body>
 </html>
