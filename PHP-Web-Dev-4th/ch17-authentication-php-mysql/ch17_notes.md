@@ -36,7 +36,7 @@ contains authorized users’ passwords
 - As already mentioned, mod_auth is easy to set up with Apache and is effective. Because it
 stores users in a text file, it is not really practical for busy sites with large numbers of
 users.
-- p.422 => installing mod_auth_mysql
+- p.422 => installing mod\_auth\_mysql
 - More advanced authentication and authorization continues in Chapter 23
 - Sessions appear to be necessary for password submission via forms because you are going to a 
 new page.  Sessions are used to track variables between pages.
