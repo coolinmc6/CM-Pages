@@ -11,7 +11,7 @@
 <body>
 	<?php include_once("header.php") ?>
 	<!-- <a href=""></a> -->
-	
+
 	<div class="page-header text-center">
 		<h1>Colin's Repo Index</h1>
 	</div>
@@ -39,8 +39,7 @@
 		<div id="confirm-div"></div>
 		<a href="jump.php" onClick="return confirm('Are you sure?')">Reload page if Yes</a>
 	</div>
-		
-	
+
 	
 
 	<?php include_once("footer.php") ?>
@@ -50,7 +49,7 @@
 		var confDiv = document.getElementById('confirm-div');
 		var showDiv = function(){
 			var conf = confirm("Are you sure you want to show the div?");
-			
+
 			if (conf) {
 				confDiv.style.display = 'block';
 			} else {
