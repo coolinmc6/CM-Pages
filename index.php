@@ -17,15 +17,20 @@
 		<h1>Colin's Repo Index</h1>
 	</div>
 	<ul>
-		<li><a href="sass-test1.php">Sass Test #1</a></li>
-		<li><a href="PHP-and-MySQL/index.php">PHP and MySQL for Dynamic Websites</a></li>
-		<li><a href="Udemy-Chat-php-ajax/index.php">Udemy Chat App</a></li>
-		<li>DoubleKnot</li>
+		<li><a href="random/doubleknot.php">DoubleKnot</a></li>
+		<ul>
+			<li>Darkened color background on an image</li>
+			<li>Here is the original site: <a href="http://www.doubleknotphilly.com/">DoubleKnot</a>.</li>
+			<li>They do an overlay div with some opacity (0.9) and make it black.  I did it another way but should play with both.</li>
+		</ul>
 		<li><a href="positioning1.php">Positioning</a></li>
 		<li><a href="parallax.php">Parallax</a></li>
+		<li><a href="PHP-and-MySQL/index.php">PHP and MySQL for Dynamic Websites</a></li>
+		<li><a href="sass-test1.php">Sass Test #1</a></li>
 		<li><a href="stretchy-navigation/add.html">Stretchy Navigation: Add</a></li>
 		<li><a href="stretchy-navigation/edit.html">Stretchy Navigation: Edit</a></li>
 		<li><a href="stretchy-navigation/index.html">Stretchy Navigation: Index</a></li>
+		<li><a href="Udemy-Chat-php-ajax/index.php">Udemy Chat App</a></li>
 	</ul>
 	<hr>
 	<div class="content">
