@@ -1,5 +1,7 @@
 /*index.css*/
-
+#main {
+	height: 90vh;
+}
 .content {
 	padding: 1rem 2rem;
 }

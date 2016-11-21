@@ -420,6 +420,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/PHP-Web-Dev-4th\/ch27-user-auth\/add_bms.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/PHP-Web-Dev-4th\/ch27-user-auth\/add_bms.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/PHP-Web-Dev-4th\/ch27-user-auth\/bookmark_fns.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -459,6 +468,15 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/PHP-Web-Dev-4th\/ch27-user-auth\/change_passwd.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/PHP-Web-Dev-4th\/ch27-user-auth\/change_passwd.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/PHP-Web-Dev-4th\/ch27-user-auth\/data_valid_fns.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -477,11 +495,38 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/PHP-Web-Dev-4th\/ch27-user-auth\/forgot_form.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/PHP-Web-Dev-4th\/ch27-user-auth\/forgot_form.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/PHP-Web-Dev-4th\/ch27-user-auth\/forgot_passwd.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/PHP-Web-Dev-4th\/ch27-user-auth\/forgot_passwd.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/PHP-Web-Dev-4th\/ch27-user-auth\/login.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/PHP-Web-Dev-4th\/ch27-user-auth\/login.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/PHP-Web-Dev-4th\/ch27-user-auth\/logout.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/PHP-Web-Dev-4th\/ch27-user-auth\/logout.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -518,6 +563,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/PHP-Web-Dev-4th\/ch27-user-auth\/register_new.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/PHP-Web-Dev-4th\/ch27-user-auth\/url_fns.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/PHP-Web-Dev-4th\/ch27-user-auth\/url_fns.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
