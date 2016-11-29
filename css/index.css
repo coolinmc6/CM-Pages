@@ -1,9 +1,17 @@
-/*index.css*/
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
 #main {
-	height: 90vh;
+	/*height: 90vh;*/
 }
 .content {
 	padding: 1rem 2rem;
+}
+.cont-fluid {
+	padding: 0px;
+	width: 100%;
 }
 #confirm-div {
 	display: none;
@@ -11,3 +19,62 @@
 	height: 20vh;
 	background-color: #88f;
 }
+.capsule {
+	width: 300px;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+    border: 4px #333 solid;
+    margin-bottom: 2px;
+    padding-left: -2px;
+}
+/* l1, l2, l3, l4, l5, l6, l7 */
+.levels {
+	height: 20px;
+	-webkit-border-radius: 4px;
+	        border-radius: 4px;
+}
+.l1 {
+	background: linear-gradient(45deg, black, red);
+	width: 10%;
+}
+.l2 {
+	background: linear-gradient(45deg, black, red, orange);
+	width: 20%;
+}
+.l3{
+	background: linear-gradient(45deg, black, red, orange, yellow);
+	width: 35%;
+}
+.l4{
+	background: linear-gradient(45deg, red, orange, yellow, green);
+	width: 50%;
+}
+.l5{
+	background: linear-gradient(45deg, red, orange, yellow, green, blue);
+	width: 65%;
+}
+.l6{
+	background: linear-gradient(45deg, green, blue);
+	width: 80%;
+}
+.l7{
+	background: linear-gradient(45deg, red, orange);
+	width: 100%;
+}
+
+.resp-box {
+	width: 33%;
+	height: 250px;
+	background-color: #FFF;
+	border: 1px blue solid;
+	display: inline-block;
+	margin: 0px 0px;
+}
+
+@media screen and (max-width: 770px){
+	.resp-box {
+		width: 49%;
+	}
+}
+
+

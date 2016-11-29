@@ -3,11 +3,12 @@
 	.footer {
 		background-color: #1EA896;
 		color: #fff;
-		height: 10vh;
+		height: 75px;
 		position: fixed;
 		bottom: 0;
 		width: 100%;
 		padding: 4px;
+		margin-top: 50px;
 	}
 </style>
 <div class="footer">
