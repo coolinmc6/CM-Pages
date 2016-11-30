@@ -63,6 +63,17 @@
 				<div class="capsule">
 					<div class="levels l7"></div>
 				</div>
+
+				<div class="gradient-css">
+					
+				</div>
+				<div class="gradient lb1"></div>
+				<div class="gradient lb2"></div>
+				<div class="gradient lb3"></div>
+				<div class="gradient lb4"></div>
+				<div class="gradient lb5"></div>
+				<div class="gradient lb6"></div>
+				<div class="gradient lb7"></div>
 				
 			</div>
 			
