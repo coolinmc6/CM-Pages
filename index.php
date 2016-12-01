@@ -1,5 +1,8 @@
 <?php 
 
+if (isset($_GET['reset'])){
+	setcookie('count', '');
+}
 if (!isset($_COOKIE['count'])) {
 	setcookie("count", 1);
 	
@@ -8,6 +11,7 @@ if (!isset($_COOKIE['count'])) {
 	$b = 1 + $a;
 	setcookie('count', $_COOKIE['count'] + 1);
 }
+
 
  ?>
 <!DOCTYPE html>
@@ -132,14 +136,15 @@ if (!isset($_COOKIE['count'])) {
 					<br><br>
 
 					<p>Your COOKIE['count'] is: <strong><?php echo $_COOKIE['count'] ?></strong><br>
-					<ul>
-						<li>Notice how it increases with every get request but NOT post request.  One is an AJAX and the
-					other is not.</li>
-						<li>To actually change the value of the $_COOKIE variable, I have to use the setcookie() method.</li>
-						<li>I'm sure it is probably the same for the $_SESSION variable...</li>
-					</ul>
+						<ul>
+							<li>Notice how it increases with every get request but NOT post request.  One is an AJAX and the
+						other is not.</li>
+							<li>To actually change the value of the $_COOKIE variable, I have to use the setcookie() method.</li>
+							<li>I'm sure it is probably the same for the $_SESSION variable...</li>
+						</ul>
 					
 					</p>
+					<button id="cookie-reset">Reset COOKIE</button>
 					
 
 					 <?php 
@@ -188,10 +193,18 @@ if (!isset($_COOKIE['count'])) {
 			var search = $('#postInput').val();
 			$.post( "/functions/testPost.php", { serverVariable : search , nonInput : "you didn't enter this" }, function( data ) {
 			$('#post-variable').html(data);
+			});
+
+		
+			
+			
 		});
-			
-			
-		})
+
+		$('button').click(function(){
+			console.log("hello");
+			// window.location.href = "index.php?reset";
+
+		});
 	</script>
 </body>
 </html>
