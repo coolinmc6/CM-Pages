@@ -28,6 +28,7 @@ if (!isset($_COOKIE['count'])) {
 	</div>
 
 	<div id="main">
+		<h2>Links</h2>
 		<ul>
 			<li><a href="random/doubleknot.php">DoubleKnot</a></li>
 			<ul>
@@ -86,7 +87,7 @@ if (!isset($_COOKIE['count'])) {
 				<div class="gradient lb6"></div>
 				<div class="gradient lb7"></div>
 				
-				<h3 id='#ipheader'>SERVER, GET, and POST</h3>
+				<h3 id='#ipheader'>SERVER, GET, POST and COOKIE</h3>
 				<div>
 					<?php 
 						$serverRemote = $_SERVER['REMOTE_ADDR'];
@@ -124,12 +125,21 @@ if (!isset($_COOKIE['count'])) {
 					<p>Your : <strong><?php echo $server ?></strong></p>
 
 					<input type="text" name="search" id="getInput">
-					<input type="submit" value="Send GET Request" id="getSubmit">
+					<input type="submit" value="Send GET Request (non-AJAX)" id="getSubmit">
 					<br>
 					<input type="text" name="search" id="postInput">
-					<input type="submit" value="Send POST Request" id="postSubmit">
+					<input type="submit" value="Send POST Request (AJAX)" id="postSubmit">
+					<br><br>
 
-					<p>Your COOKIE['count'] is: <?php echo $_COOKIE['count'] ?></p>
+					<p>Your COOKIE['count'] is: <strong><?php echo $_COOKIE['count'] ?></strong><br>
+					<ul>
+						<li>Notice how it increases with every get request but NOT post request.  One is an AJAX and the
+					other is not.</li>
+						<li>To actually change the value of the $_COOKIE variable, I have to use the setcookie() method.</li>
+						<li>I'm sure it is probably the same for the $_SESSION variable...</li>
+					</ul>
+					
+					</p>
 					
 
 					 <?php 
