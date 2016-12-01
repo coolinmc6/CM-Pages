@@ -1,4 +1,15 @@
-<!-- index.php -->
+<?php 
+
+if (!isset($_COOKIE['count'])) {
+	setcookie("count", 1);
+	
+} else {
+	$a = $_COOKIE['count'];
+	$b = 1 + $a;
+	setcookie('count', $_COOKIE['count'] + 1);
+}
+
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,7 +47,7 @@
 		<hr>
 
 		<div class="content">
-			<h1>Random Items</h1>
+			<h2>Random Items</h2>
 			<button onClick="showDiv()">Show the Div</button>
 			<div id="confirm-div"></div>
 			<a href="jump.php" onClick="return confirm('Are you sure?')">Reload page if Yes</a>
@@ -75,6 +86,59 @@
 				<div class="gradient lb6"></div>
 				<div class="gradient lb7"></div>
 				
+				<h3 id='#ipheader'>SERVER, GET, and POST</h3>
+				<div>
+					<?php 
+						$serverRemote = $_SERVER['REMOTE_ADDR'];
+						// $ip2 = $_SERVER['HTTP_CLIENT_IP'];
+						$serverName = $_SERVER['SERVER_NAME'];
+						$serverSoft = $_SERVER['SERVER_SOFTWARE'];
+						$serverProt = $_SERVER['SERVER_PROTOCOL'];
+						$serverReq = $_SERVER['REQUEST_METHOD'];
+						$serverQuery = $_SERVER['QUERY_STRING'];
+						$serverRoot = $_SERVER['DOCUMENT_ROOT'];
+						$serverAgent = $_SERVER['HTTP_USER_AGENT'];
+						$serverPort = $_SERVER['SERVER_PORT'];
+						$getFull = $_GET;
+						$postFull = $_POST;
+						// $server = $_SERVER[];
+						// $server = $_SERVER[];
+
+
+
+
+
+						$server = 'n/a';
+
+					 ?>
+					<p>Your 'REMOTE_ADDR': <strong><?php echo $serverRemote ?></strong></p>
+					<p>Your 'SERVER_NAME': <strong><?php echo $serverName ?></strong></p>
+					<p>Your 'SERVER_SOFTWARE': <strong><?php echo $serverSoft ?></strong></p>
+					<p>Your 'REQUEST_METHOD': <strong><?php echo $serverReq ?></strong></p>
+					<p>Your 'QUERY_STRING': <strong><?php echo $serverQuery ?></strong></p>
+					<p>Your 'DOCUMENT_ROOT': <strong><?php echo $serverRoot ?></strong></p>
+					<p>Your 'HTTP_USER_AGENT': <strong><?php echo $serverAgent ?></strong></p>
+					<p>Your 'SERVER_PORT': <strong><?php echo $serverPort ?></strong></p>
+					<p>Your full GET request: <strong><?php print_r($getFull) ?></strong></p>
+					<p>Your full POST request: <span id='post-variable'></span></p>
+					<p>Your : <strong><?php echo $server ?></strong></p>
+
+					<input type="text" name="search" id="getInput">
+					<input type="submit" value="Send GET Request" id="getSubmit">
+					<br>
+					<input type="text" name="search" id="postInput">
+					<input type="submit" value="Send POST Request" id="postSubmit">
+
+					<p>Your COOKIE['count'] is: <?php echo $_COOKIE['count'] ?></p>
+					
+
+					 <?php 
+
+
+
+					  ?>
+
+				</div>
 			</div>
 			
 		</div>
@@ -100,6 +164,24 @@
 				confDiv.style.display = 'none';
 			}
 		}
+
+		$('#getSubmit').click(function(){
+			var url = "";
+			var search = $('#getInput').val();
+			console.log(search);
+			url = "?" + search;
+			window.location.href = url;
+		})
+
+		$('#postSubmit').click(function(){
+			var url = "";
+			var search = $('#postInput').val();
+			$.post( "/functions/testPost.php", { serverVariable : search , nonInput : "you didn't enter this" }, function( data ) {
+			$('#post-variable').html(data);
+		});
+			
+			
+		})
 	</script>
 </body>
 </html>
