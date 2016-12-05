@@ -1,7 +1,8 @@
 <?php 
 
 if (isset($_GET['reset'])){
-	setcookie('count', '');
+	setcookie('count', '', time() - 3600, "/");
+	// setcookie('loggedin', '', time() - 3600, "/");
 }
 if (!isset($_COOKIE['count'])) {
 	setcookie("count", 1);
@@ -135,7 +136,19 @@ if (!isset($_COOKIE['count'])) {
 					<input type="submit" value="Send POST Request (AJAX)" id="postSubmit">
 					<br><br>
 
-					<p>Your COOKIE['count'] is: <strong><?php echo $_COOKIE['count'] ?></strong><br>
+					<p>Your COOKIE['count'] is: <strong>
+						<?php 
+							if (!isset($_COOKIE['count'])){
+								echo '&nbsp;&nbsp;your $';
+								echo "_COOKIE['count'] is currently null";
+							} else {
+								echo $_COOKIE['count']; 	
+							}
+							
+
+						?>
+							
+						</strong><br>
 						<ul>
 							<li>Notice how it increases with every get request but NOT post request.  One is an AJAX and the
 						other is not.</li>
@@ -144,7 +157,8 @@ if (!isset($_COOKIE['count'])) {
 						</ul>
 					
 					</p>
-					<button id="cookie-reset">Reset COOKIE</button>
+					<a href="functions/cookie-reset.php" id="cookie-reset">Cookie Reset</a>
+					<!-- <button id="cookie-reset">Reset COOKIE</button> -->
 					
 
 					 <?php 
@@ -200,11 +214,11 @@ if (!isset($_COOKIE['count'])) {
 			
 		});
 
-		$('button').click(function(){
-			console.log("hello");
-			// window.location.href = "index.php?reset";
+		// $('#cookie-reset').click(function(){
+		// 	console.log("hello");
+			
 
-		});
+		// });
 	</script>
 </body>
 </html>
