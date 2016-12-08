@@ -63,6 +63,8 @@
 		<option value="1">1</option>
 		<option value="2">2</option>
 		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
 	</select>
 	<p id="displaySelect"></p>
 	<div id="logic"></div>
@@ -72,8 +74,9 @@
 		var l = document.getElementById('logic');
 		s.addEventListener('change',function(){
 			p.innerText = s.value;
-			var a = (s.value >= 2) ? "2 or bigger" : "just one";
-			console.log(a);
+			var a = (s.value == 2) ? "the number is 2" : s.value < 2 ? "just one" : s.value > 4 
+			? "it's 2+3" : s.value <= 4 ? "3 or 4" : "dude I have no idea";
+			// console.log(a);
 			l.innerText = a;
 		})
 
