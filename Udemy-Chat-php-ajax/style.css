@@ -53,3 +53,35 @@ textarea {
 	border-radius: 5px;
 	padding: 4px;
 }
+
+.cm-notes {
+	padding: 2rem;
+	background-color: #fff;
+	border: 3px solid black;
+}
+table, tr, th, td {
+	border: 1px solid black;
+}
+table {
+	border-collapse: collapse;
+}
+td, th {
+	padding: 0.5rem;
+}
+ul {
+	list-style: disc;
+}
+ul ul li {
+	list-style: circle;
+}
+ol li {
+	list-style: lower-alpha;
+	margin-left: 15px;
+}
+.cm-notes ul ul li {
+	margin-left: 15px;
+}
+strong {
+	font-weight: 800;
+}
+

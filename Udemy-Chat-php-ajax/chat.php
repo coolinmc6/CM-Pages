@@ -2,7 +2,7 @@
 
 <?php 
 	include 'db.php';
-	$query = "SELECT * FROM chat ORDER BY id DESC";
+	$query = "SELECT * FROM chat ORDER BY id DESC limit 10";
 	$run = $con->query($query);
 
 	while($row = $run->fetch_array()) :

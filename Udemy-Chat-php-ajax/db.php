@@ -5,12 +5,12 @@
 	
 
 	// ********** HOME *********
-	$db_name = "chat_app";
-	$pass = "";
+	// $db_name = "chat_app";
+	// $pass = "";
 
 	// ********** WORK *********
-	// $db_name = "Colin";
-	// $pass = "password";
+	$db_name = "Colin";
+	$pass = "password";
 
 
 	$con = new mysqli($host, $user, $pass, $db_name);
