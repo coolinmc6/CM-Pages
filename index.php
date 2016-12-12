@@ -174,7 +174,7 @@ if (!isset($_COOKIE['count'])) {
 				</div>
 			</div>
 			
-		</div>
+		</div> <!-- End of content div -->
 
 	</div> <!-- End of main div -->
 	
