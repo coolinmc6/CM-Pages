@@ -179,6 +179,7 @@ if (!isset($_COOKIE['count'])) {
 					<p>2. Make your changes but make sure you are on the right branch in GitHub</p>
 					<img src="images/branch-how-to2.jpg" alt="">
 					<p>3. Commit your changes and publish.</p>
+					<p>3-b. After publishing, you will have a 'blank slate'</p>
 					<img src="" alt="">
 				</div>
 			</div>
