@@ -171,6 +171,11 @@ if (!isset($_COOKIE['count'])) {
 
 					  ?>
 
+				</div> <!-- SERVER, GET, POST and COOKIE div-->
+				<h3>Git Branching Discussion</h3>
+				<div>
+					<p>1. Create a new branch</p>
+					<img src="images/branch-how-to1.jpg" alt="">
 				</div>
 			</div>
 			
