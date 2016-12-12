@@ -105,6 +105,8 @@ if (!isset($_COOKIE['count'])) {
 						$serverRoot = $_SERVER['DOCUMENT_ROOT'];
 						$serverAgent = $_SERVER['HTTP_USER_AGENT'];
 						$serverPort = $_SERVER['SERVER_PORT'];
+						$serverRoot = $_SERVER['DOCUMENT_ROOT'];
+						$serverSelf = $_SERVER['PHP_SELF'];
 						$getFull = $_GET;
 						$postFull = $_POST;
 						// $server = $_SERVER[];
@@ -127,7 +129,9 @@ if (!isset($_COOKIE['count'])) {
 					<p>Your 'SERVER_PORT': <strong><?php echo $serverPort ?></strong></p>
 					<p>Your full GET request: <strong><?php print_r($getFull) ?></strong></p>
 					<p>Your full POST request: <span id='post-variable'></span></p>
-					<p>Your : <strong><?php echo $server ?></strong></p>
+					<p>Your Document Root: <strong><?php echo $serverRoot ?></strong></p>
+					<p>Your PHP file name: <strong><?php echo $serverSelf ?></strong></p>
+					<p>Your Document Root + file name: <strong><?php echo $serverRoot . $serverSelf ?></strong></p>
 
 					<input type="text" name="search" id="getInput">
 					<input type="submit" value="Send GET Request (non-AJAX)" id="getSubmit">
