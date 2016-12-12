@@ -176,6 +176,10 @@ if (!isset($_COOKIE['count'])) {
 				<div>
 					<p>1. Create a new branch</p>
 					<img src="images/branch-how-to1.jpg" alt="">
+					<p>2. Make your changes but make sure you are on the right branch in GitHub</p>
+					<img src="images/branch-how-to2.jpg" alt="">
+					<p>3. Commit your changes and publish.</p>
+					<img src="" alt="">
 				</div>
 			</div>
 			
