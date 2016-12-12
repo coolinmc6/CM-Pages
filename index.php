@@ -180,7 +180,11 @@ if (!isset($_COOKIE['count'])) {
 					<img src="images/branch-how-to2.jpg" alt="">
 					<p>3. Commit your changes and publish.</p>
 					<p>3-b. After publishing, you will have a 'blank slate'</p>
-					<img src="" alt="">
+					
+					<p>4. Click 'pull request'</p>
+					<p>5. Switch back over to Master</p>
+					<p>6. User the 'Compare' dropdown to see your most recent branch</p>
+					<p>7. Merge in changes</p>
 				</div>
 			</div>
 			
