@@ -21,7 +21,7 @@ $date = date('Y:m:d h:i:sa');
 // 2016:12:16 08:46:51am
 ```
 
-  - getting the database connection to work to longer than it should have.  Just use
+  - getting the database connection to work took longer than it should have.  Just use
   the db connection method you are familiar with
   - binding parameters is not just for security...inserting anything with an apostrophe
   can screw up the SQL
@@ -32,5 +32,5 @@ $date = date('Y:m:d h:i:sa');
   - for the PDO function, using variables for the user name and password that are defined
   outside of the db_connect() function doesn't work...despite including the db.php file
   - I need to learn the try{} catch{} to see what my errors are
-  
+
 
