@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<h1 id="chat-app">Chat-App</h1>
+
+<p>This is just a jQuery Ajax chat app designed to play around with ajax and displaying a chat.</p>
+
+<p>I largely followed this template from my other chat app:</p>
+
+<ol>
+<li>Create database</li>
+<li>Create div to hold chat</li>
+<li>Create form / input elements to input message</li>
+<li>Write $.post request to insert chat texts</li>
+<li>Write GET request that refreshes every second to get chat, limit 50, order by DESC</li>
+<li>Display overflow to scroll</li>
+<li>Enter some test chats and confirm it works-</li>
+</ol>
+
+<p>Here are a few thoughts:
+ - you can&#8217;t have two auto incrementing items in the same table. For me, that means that
+ I can&#8217;t have both an a_i ID column AND a timestamp. I CAN, however, insert a string
+ using PHP&#8217;s date() method:
+<code>php
+$date = date('Y:m:d h:i:sa');
+// 2016:12:16 08:46:51am
+</code></p>
+
+<ul>
+<li>getting the database connection to work to longer than it should have. Just use
+ the db connection method you are familiar with</li>
+<li>binding parameters is not just for security&#8230;inserting anything with an apostrophe
+ can screw up the SQL</li>
+<li>After creating the database (#1) and chat div (#2), I should manually enter in a
+ message or two into the DB and then do the GET request (#5). Doing a select statement
+ is always easier and allows me to set up the setInterval and constant update
+ functionality</li>
+<li>for the PDO function, using variables for the user name and password that are defined
+ outside of the db_connect() function doesn&#8217;t work&#8230;despite including the db.php file</li>
+<li>I need to learn the try{} catch{} to see what my errors are</li>
+</ul>
+
+</body>
+</html>
