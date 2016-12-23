@@ -25,6 +25,6 @@ function increaseNumberRoundness($n) {
 }
 
 echo increaseNumberRoundness(11000);
-echo true;
+
 
  ?>
