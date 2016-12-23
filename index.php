@@ -188,7 +188,7 @@ if (!isset($_COOKIE['count'])) {
 				<p>7. Merge in changes</p>
 			</div>
 
-
+			<?php echo 22 / 7 ?>
 			
 		</div> <!-- End of content div -->
 
