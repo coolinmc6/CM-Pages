@@ -3,28 +3,44 @@
 function increaseNumberRoundness($n) {
     $s = strrev((string)($n));
     $bool = false;
+    echo "Initial bool is $bool <br>";
     $leading = true;
-    echo $s;
+    echo "Number is: $n and String is: $s <br>";
     for ($i = 0; $i < strlen($s); $i++){
-        $leading = $i == 0 ? true : false;
+        
         if ($leading){
-            
+            $leading = $s[$i] == 0 ? true : false;
+            echo "leading: " . $leading . " and number is: ". $s[$i] . "<br>";
         } else {
-            if ($s[$i+1] == 0){
+            
+            if ($s[$i] == '0') {
                 $bool = true;
-            } else {
-                $bool = false;
-            }   
+                if ($bool) return $bool;
+            }
         }
+        
         if ($bool) return $bool;
         
        
     }
+    
     return $bool;
     
 }
 
-echo increaseNumberRoundness(11000);
+echo increaseNumberRoundness(99080);
+
+
+// $cond = false;
+// for ($i=0; $i < 10; $i++) { 
+//     echo "$i is less than 10<br>";
+//     if($i == 6){
+//         $cond = true;
+//     }
+//     if ($cond) return $cond;
+// }
+
+
 
 
  ?>
