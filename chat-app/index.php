@@ -24,12 +24,17 @@
 			color: red;
 			width: 20%;
 		}
+		.other {
+			color: blue;
+			font-weight: 700;
+			font-size: 1.5rem;
+		}
 		.msg {
 			color: black;
 			width: 60%;
 		}
 		.date {
-			float: right;
+			/*float: right;*/
 		}
 		input {
 			width: 40%;
@@ -43,7 +48,9 @@
 		</div>
 		
 		<input type="text" name="msg" id="msg">
-		<a href="#" class="btn btn-primary">Send Message</a>
+		<a href="#" class="btn btn-primary">Send Message</a><br><br>
+		<input type="text" name="name" id="name-box">
+		<div class="btn btn-primary" id="change-name">Change Name</div>
 		
 	</div>
 	<?php 
@@ -54,12 +61,19 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script>
-	$(document).ready(function(){
+	
 		updateChat();
+		var name = 'Colin';
+
+		$('#change-name').on('click', function(){
+			name = $('#name-box').val();
+			console.log(name);
+		})
+
 		$('a.btn').on('click', function(){
 			var msg = $('#msg').val();
-			
-			$.post('send-msg.php',{ user : 'Colin', msg : msg }, function(data){
+			var userName = name;
+			$.post('send-msg.php',{ user : userName, msg : msg }, function(data){
 				console.log('Post request: ', data);
 			})
 		
@@ -72,14 +86,16 @@
 			})	
 		}
 
-		setInterval(function(){updateChat()},1000)
+		// setInterval(function(){updateChat()},1000)
+
+		
+		
 
 
 
 
 
-
-	});
+	
 	</script>
 	
 </body>

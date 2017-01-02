@@ -33,8 +33,17 @@ if (isset($_GET['getChat'])){
 	// print_r($chatMessages);
 
 	foreach ($chatMessages as $chat) {
+
+		// if ($userName == $chat['userName']) {
+		if ($chat['userName'] == 'Colin') {
+			$class = 'name';
+			echo $chat['userName'];
+		} else {
+			$class = 'other';
+		}
+		$class = 'name';
 		echo "<div class='chat-row'>";
-		echo "<div class='name'>" . $chat['userName'] . "</div>";
+		echo "<div class='".$class."'>" . $chat['userName'] . "</div>";
 		echo "<div class='msg'>" . $chat['msg'] . "</div>";
 		echo "<div class='date'>" . $chat['date'] . "</div>";
 		echo "</div>";
