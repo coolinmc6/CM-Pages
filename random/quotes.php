@@ -8,6 +8,10 @@
 
 // Quotes
 
+$hudson = ["Wonderful from Adriano to keep this alive. Messi!  AHHHHHH you kidding me!",
+			"1.21 gigawatts, under these conditions, are you kidding me?",
+
+			]
 
 
 
