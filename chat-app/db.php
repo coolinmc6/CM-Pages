@@ -10,7 +10,7 @@
 
 	// ********** WORK *********
 	// $db_name = "Colin";
-	// $pass = "password";
+	// $pass = "root";
 
 
 	// $con = new mysqli($host, $user, $pass, $db_name);
@@ -31,7 +31,7 @@
    	 	// return new PDO($dsn,$user,$pass,$opt);
 
    	 	// WORK
-   	 	// return new PDO($dsn,'root','password',$opt);
+   	 	// return new PDO($dsn,'root','root',$opt);
 
    	 	// HOME
    	 	return new PDO($dsn,'root','root',$opt);	
