@@ -12,6 +12,16 @@
 		p, li {
 			line-height: 1.3rem;
 		}
+		.link {
+			color: blue;
+			background-color: #eee;
+			padding: 0.1rem 0.25rem;
+		}
+		.filename {
+			color: brown;
+			background-color: #eee;
+			padding: 0.1rem 0.25rem;
+		}
 	</style>
 </head>
 <body>
@@ -21,14 +31,15 @@
 	 App</a> but here are the basic steps.
 	<ol>
 		<li>Install the json server globally: <code>npm i -g json-server</code></li>
-		<li>Make a db.json file in my repo's directory (but it probably doesn't need to be)</li>
-		<li>"Create" a database in db.json as follows: curly braces, "string" key, colon, empty array</li>
+		<li>Make a <span class="filename">db.json</span> file in my repo's directory (but it probably doesn't need to be)</li>
+		<li>"Create" a database in db.json as follows: curly braces, "string" key which is the name of my database,
+		 colon, empty array</li>
 		<ul>
 			<li><code>{ "todos": [ ] }</code> => obviously, space it out to appropriate json format</li>
 		</ul>
 		<li>Start your server: <code>json-server -p 8008 --watch db.json</code></li>
 		<li>You can then start writing GET, POST, and PUT requests to your server at this URL:
-		'http://localhost:8080/todos'</li>
+		<span class="link">http://localhost:8080/todos</span></li>
 		<li>I'll need to leave soon but THIS IS AWESOME!</li>
 
 	</ol>
