@@ -1,0 +1,24 @@
+{
+  "name": "cm-pages",
+  "version": "1.0.0",
+  "description": "stuff",
+  "main": "bundle.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolinmc6/CM-Pages.git"
+  },
+  "author": "Colin McNamara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coolinmc6/CM-Pages/issues"
+  },
+  "homepage": "https://github.com/coolinmc6/CM-Pages#readme"
+}
