@@ -371,6 +371,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/P-EXPO-11_2 (1).jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.2584e+06,
+		"inputAbbreviatedPath": "\/images\/P-EXPO-11_2 (1).jpg",
+		"outputAbbreviatedPath": "\/images\/P-EXPO-11_2 (1).jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/P-EXPO-11_3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.32991e+06,
+		"inputAbbreviatedPath": "\/images\/P-EXPO-11_3.jpg",
+		"outputAbbreviatedPath": "\/images\/P-EXPO-11_3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/P-EXPO-11_4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.05472e+06,
+		"inputAbbreviatedPath": "\/images\/P-EXPO-11_4.jpg",
+		"outputAbbreviatedPath": "\/images\/P-EXPO-11_4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/Soccerball.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -485,6 +518,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/parallax.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/parallax2.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/parallax2.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
