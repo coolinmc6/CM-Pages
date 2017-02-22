@@ -12,7 +12,7 @@
 	  - everything goes to your lib folder
 	 -->
 	<div id="root"></div>
-	<!-- <script src="../lib/test.js"></script> -->
+	<script src="../lib/test.js"></script>
 	<script src="../lib/addItem.js"></script>
 	
 </body>
