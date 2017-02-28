@@ -5,6 +5,9 @@
 	<title>People Grabber</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<style>
+		#main {
+			
+		}
 		.user-profile {
 			border: 1px solid black;
 			padding: 1rem;
@@ -17,12 +20,47 @@
 			right: 1rem;
 			top: 1rem;
 		}
+		button {
+			margin-bottom: 1rem;
+		}
 	</style>
 </head>
 <body>
 	<div class="container">
 		<button id="show" class="btn btn-primary">SHOW USERS</button>
-		<div id="main" class="container">
+		<div id="main">
+			<div class="container">
+				<table class="table table-hover">
+					<tr>
+						<th>Field</th>
+						<th>API with map => users.results.map(function(item)</th>
+					</tr>
+					<tr>
+						<td>Name</td>
+						<td>item.name.first, item.name.last</td>
+					</tr>
+					<tr>
+						<td>Email</td>
+						<td>item.email</td>
+					</tr>
+					<tr>
+						<td>Username</td>
+						<td>item.login.username</td>
+					</tr>
+					<tr>
+						<td>Password</td>
+						<td>item.login.sha256</td>
+					</tr>
+					<tr>
+						<td>Picture</td>
+						<td>item.picture.thumbnail</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</div>
 			
 		</div>
 	</div>
