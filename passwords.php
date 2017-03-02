@@ -1,5 +1,15 @@
 <?php 
 
+if(isset($_POST['password'])){
+	$getPass = $_POST['password'];
+	$new = password_hash($getPass, PASSWORD_BCRYPT);
+	echo $new;
+	// echo 'hello';
+	exit;
+} else {
+	$getPass = 'not filled';
+}
+
 $pass1 = hash('sha256', 'Colin is the man');
 
 
@@ -14,7 +24,26 @@ $pass1 = hash('sha256', 'Colin is the man');
 	<meta charset="UTF-8">
 	<title>Passwords</title>
 	<style>
-		font-family: Monospace;
+		input {
+			font-family: Monospace;	
+		}
+		#hash, td {
+			font-family: monospace;
+		}
+		table {
+			margin-top: 1rem;
+			width: 80%
+			margin: 0 auto;
+		}
+		th {
+			width: 50%;
+			text-align: center;
+		}
+		td:nth-child(1) {
+			text-align: center;
+			width: 25%;
+		}
+		
 	</style>
 </head>
 <body>
@@ -26,7 +55,8 @@ $pass1 = hash('sha256', 'Colin is the man');
 	<br>
 
 	<p>Enter a test password here: <input type="text" name="password" id="password"></p>
-	<p>This is its hash: <input type="text" name="hash" id="hash" readonly></p>
+	<input type="text" id="stuff">
+	<p>This is its hash: <span id="hash"></p>
 	
 	<?php 
 	$password = 'This is a test password';
@@ -38,13 +68,44 @@ $pass1 = hash('sha256', 'Colin is the man');
 
 
 	 ?>
-	<script>
-		var pass = document.getElementById('password');
-		var hash = document.getElementById('hash');
-		pass.onchange = function(){
-			
-		}
-	</script>
+	<ul>
+		<li>Don't hash password unless longer than 6 letters</li>
+		<li>Check if password is a "stupid" password</li>
+	</ul>
+	 <table id="pass-table">
+	 	<tr>
+	 		<th>Password (PlainText)</th>
+	 		<th>Password Hashed</th>
+	 	</tr>
+
+	 </table>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript">
+		var hash = document.getElementById('hash');
+		var dumbPasswords = {};
+		$.post('stupid-passwords.php', { dumb: 'dumb' }, (data) => {
+			dumbPasswords = JSON.parse(data);
+		})
+
+
+
+		$('#password').on('keyup', () => {
+			var password = $('#password').val();
+			$.post('passwords.php', { password : password }, function(data) {
+				var tr = document.createElement('tr');
+				var td1 = document.createElement('td');
+				$(td1).text(password);
+				var td2 = document.createElement('td');
+				$(td2).text(data);
+				$(tr).append(td1, td2)
+				$('#pass-table').append(tr);
+				$('#hash').text(data);
+			})
+			
+		});
+		
+
+	</script>
 </body>
 </html>
