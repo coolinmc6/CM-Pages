@@ -17,3 +17,5 @@ Some concepts or ideas to explore:
 6. Basic eCommerce site
 7. Relational Databases
 
+## JavaScript
+ES6 => see for JS functions (map, filter, reduce, etc.)
