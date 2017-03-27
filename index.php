@@ -22,7 +22,7 @@ if (!isset($_COOKIE['count'])) {
 	<title>Colin's Repo Index</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="shortcut icon" href="favicon.ico">
-	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/index.css?<?php echo rand();  ?>">
 </head>
 <body>
 	<?php include_once("header.php") ?>
@@ -33,6 +33,35 @@ if (!isset($_COOKIE['count'])) {
 	</div>
 
 	<div class='container' id="main">
+		<h2>Key Words & Example Pages</h2>
+		<table>
+			<thead>
+				<th>Key Words</th>
+				<th>Pages</th>
+				<th>Comments</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>guid</td>
+					<td>guid-generator</td>
+					<td>PHP and JavaScript</td>
+				</tr>
+				<tr>
+					<td><code>JSON.parse()</code></td>
+					<td>guid-generator</td>
+					<td>Passing a PHP associative array to a JS object.</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
 		<h2>Links</h2>
 		<ul>
 			<li><a href="random/doubleknot.php">DoubleKnot</a></li>
@@ -50,6 +79,7 @@ if (!isset($_COOKIE['count'])) {
 			<li><a href="stretchy-navigation/index.html">Stretchy Navigation: Index</a></li>
 			<li><a href="Udemy-Chat-php-ajax/index.php">Udemy Chat App</a></li>
 		</ul>
+
 		<hr>
 
 		<div class="content">

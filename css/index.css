@@ -114,5 +114,19 @@
 		width: 49%;
 	}
 }
-
+table {
+	width: 100%;
+}
+table, td, th {
+	border: 1px solid black;
+	border-collapse: collapse;
+	
+}
+td, th {
+	padding: 0.5rem;
+	text-align: center;
+}
+th:nth-child(3) {
+	width: 50%;
+}
 
