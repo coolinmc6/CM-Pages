@@ -18,7 +18,7 @@ li {
   -webkit-border-radius: 50%;
   border-radius: 50%;
   position: relative; }
-  .cm-spinner:after, .cm-spinner:before {
+  .cm-spinner:after {
     content: '';
     display: block;
     width: 100px;

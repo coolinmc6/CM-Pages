@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="../css/cm-spinners.css">
 </head>
 <body>
+	<h1>Original Spinners</h1>
 	<div class="wrap">
 		<div class="spinner spinner-1"></div>	
 
@@ -23,9 +24,11 @@
 		</div>
 		
 	</div>
-
+	
+	<h1>Colin's Recreations</h1>
 	<div class="wrap2">
 		<div class="cm-spinner cm-spinner-1"></div>
+		<div class="cm-spinner cm-spinner-2"></div>
 	</div>
 
 	<div class="notes">
@@ -74,9 +77,15 @@
 				speeding it up.</li>
 			</ul>
 			
-			<li></li>
-			<li></li>
-			<li></li>
+			<li>In playing around, it looks like we styled both the &:before and &:after...I commented out the
+			:before and saw no difference.  I don't know that I <strong>needed</strong> to style it but I don't
+			know.</li>
+			<li>One major "pattern" that I learned was the idea of placing a second element right behind the
+			one I'm trying to spin.  I using positioning based on the width of the border that I want my
+			&:after element to have.  So if I want it to appear to have a 4px border, I move it up and to the
+			left by 4px and then I can give that element a 4px border.</li>
+			<li>The notes above on how to use the animation property are pretty useful and I will probably
+			see that again.</li>
 			<li></li>
 			<li></li>
 			<li></li>

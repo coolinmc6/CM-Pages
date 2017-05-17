@@ -24,7 +24,17 @@ li {
 	border-radius: 50%; 
 	position: relative;
 	
-	&:after, &:before {
+	// &:after, &:before {
+	// 	content: '';
+	// 	display: block;
+	// 	width: 100px;
+	// 	height: 100px;
+	// 	-webkit-border-radius: 50%; 
+	// 	border-radius: 50%; 
+		
+	// }
+
+	&:after {
 		content: '';
 		display: block;
 		width: 100px;
@@ -33,6 +43,7 @@ li {
 		border-radius: 50%; 
 		
 	}
+
 }
 
 .cm-spinner-1:after {
