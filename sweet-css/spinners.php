@@ -95,16 +95,11 @@
 			I'd need it to move back left one-half of its width.</li>
 			<li>Although it LOOKS LIKE the circles are moving around the main circle, I am actually just rotating
 			my spinner!  That's why it works!</li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li><strong>Spinner #3</strong></li>
+			<li>This wasn't a difficult one but I want to learn how he did it.  He used transform-origin which I
+			don't understand how that works.</li>
+			<li><strong>Spinner #4</strong></li>
+			<li><strong>Spinner #5</strong></li>
 		</ul>
 
 	</div>
