@@ -5,6 +5,13 @@ li {
 	font-size: 1.1rem;
 	font-family: sans-serif;
 }
+code {	
+	color: #C7254E;
+	background-color: #F9F2F4;
+	padding: 0.25rem;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}	
 .wrap2 {
 	width: 100%;
 	background-color: #FFF;
@@ -24,17 +31,7 @@ li {
 	border-radius: 50%; 
 	position: relative;
 	
-	// &:after, &:before {
-	// 	content: '';
-	// 	display: block;
-	// 	width: 100px;
-	// 	height: 100px;
-	// 	-webkit-border-radius: 50%; 
-	// 	border-radius: 50%; 
-		
-	// }
-
-	&:after {
+	&:after, &:before {
 		content: '';
 		display: block;
 		width: 100px;
@@ -44,7 +41,22 @@ li {
 		
 	}
 
+	// &:after {
+	// 	content: '';
+	// 	display: block;
+	// 	width: 100px;
+	// 	height: 100px;
+	// 	-webkit-border-radius: 50%; 
+	// 	border-radius: 50%; 
+		
+	// }
+
 }
+
+/**************************************************************************************************/
+/******************************************* SPINNER 1 ********************************************/
+/**************************************************************************************************/
+
 
 .cm-spinner-1:after {
 	position: absolute;
@@ -70,3 +82,130 @@ li {
 		transform: rotate(360deg) scale(1.0)
 	}
 }
+
+/**************************************************************************************************/
+/******************************************* SPINNER 2 ********************************************/
+/**************************************************************************************************/
+
+.cm-spinner-2 {
+	animation: cm-spin 2s linear infinite;
+	
+	&:before, &:after {
+		height: 20px;
+		width: 20px;
+		background-color: blue;
+		position: absolute;
+		top: -10px; 
+		left: 50%;
+		margin-left: -10px;
+		animation: cm-bouncy 1s ease-in infinite;
+		
+	}
+	&:after {
+		content: 'e';
+		
+		
+		color: #fff;
+		top: auto;
+		bottom: -10px;
+		animation: cm-bouncy 2.5s ease-in infinite;
+		background-color: green; 
+		animation: counter 2s linear infinite;
+	}
+
+
+
+}
+
+@keyframes cm-spin {
+	0% {
+		transform: rotate(0deg)
+	}
+	100% {
+      transform: rotate(360deg);
+  	}
+
+}
+
+@keyframes cm-bouncy {
+	0% {
+		transform: translateY(0px);	
+	}
+	50% {
+		transform: translateY(30px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+@keyframes counter {
+	0% {
+		transform: rotate(0deg)
+	}
+	100% {
+      transform: rotate(-360deg);
+  	}
+}
+
+
+/**************************************************************************************************/
+/******************************************* SPINNER 3 ********************************************/
+/**************************************************************************************************/
+
+.cm-spinner-3 {
+	animation: cm-spin 2s linear infinite;
+	
+	&:before {
+		height: 60px;
+		width: 4px;
+		background-color: orangered;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-left: -2px;
+		-webkit-border-radius: 0px; 
+		 border-radius: 0px;  
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @keyframes bouncy
+//   0%, 100% {
+//       transform: translateY(0px);
+//   }
+//   50% {
+//       transform: translateY(30px);
+//   }
+  
+// @keyframes spin
+//   0% {
+//       transform: rotate(0deg);
+//   }
+//   100% {
+//       transform: rotate(360deg);
+//   }
+
+
+
+
+
+
+
+
+
+
+
+

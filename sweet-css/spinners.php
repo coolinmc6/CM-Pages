@@ -25,10 +25,11 @@
 		
 	</div>
 	
-	<h1>Colin's Recreations</h1>
+	<h1>Colin's Re-Creations</h1>
 	<div class="wrap2">
 		<div class="cm-spinner cm-spinner-1"></div>
 		<div class="cm-spinner cm-spinner-2"></div>
+		<div class="cm-spinner cm-spinner-3"></div>
 	</div>
 
 	<div class="notes">
@@ -56,6 +57,7 @@
 			<li>After adding the the <code>&:before, &:after</code> code you can see that there is another block
 			right below my first one.
 			</li>
+			<li><strong>Spinner #1</strong></li>
 			<li>To give my spinner the appearance of a movable red border, I need to position it's "after" block 
 			behind my spinner.  Using absolute positioning, move it up 4px, left 4px but then add a 4px border.
 			Would box-sizing: border-box screw this up?  CM => it didn't appear to...</li>
@@ -86,9 +88,13 @@
 			left by 4px and then I can give that element a 4px border.</li>
 			<li>The notes above on how to use the animation property are pretty useful and I will probably
 			see that again.</li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li><strong>Spinner #2</strong></li>
+			<li>To center those little circles at the top and bottom of the main spinner, I just need to position
+			them at <code>left: 50%</code> and then move them back (to the left) by one-half of each circle's
+			diameter (its radius), which is 10px.  I say one-half the diameter because if it was a square element, 
+			I'd need it to move back left one-half of its width.</li>
+			<li>Although it LOOKS LIKE the circles are moving around the main circle, I am actually just rotating
+			my spinner!  That's why it works!</li>
 			<li></li>
 			<li></li>
 			<li></li>
