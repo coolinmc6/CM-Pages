@@ -30,6 +30,8 @@
 		<div class="cm-spinner cm-spinner-1"></div>
 		<div class="cm-spinner cm-spinner-2"></div>
 		<div class="cm-spinner cm-spinner-3"></div>
+		<div class="cm-spinner cm-spinner-4"></div>
+		<div class="cm-spinner cm-spinner-5"></div>
 	</div>
 
 	<div class="notes">
@@ -99,6 +101,7 @@
 			<li>This wasn't a difficult one but I want to learn how he did it.  He used transform-origin which I
 			don't understand how that works.</li>
 			<li><strong>Spinner #4</strong></li>
+			<li></li>
 			<li><strong>Spinner #5</strong></li>
 		</ul>
 
