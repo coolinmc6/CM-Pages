@@ -1,0 +1,66 @@
+$radius: 10px;
+.container {
+	width: 50px;
+	height: 20px;
+	border: 1px solid black;
+	-webkit-border-top-left-radius: $radius; 
+	border-top-left-radius: $radius; 
+	-webkit-border-top-right-radius: $radius; 
+	border-top-right-radius: $radius; 
+	-webkit-border-bottom-left-radius: $radius; 
+	border-bottom-left-radius: $radius; 
+	-webkit-border-bottom-right-radius: $radius; 
+	border-bottom-right-radius: $radius; 
+	position: relative;
+}
+.ball {
+	width: 20px;
+	height: 20px;
+	border-radius: $radius;
+	background-color: blue; 
+	margin-left: -2px;
+	cursor: pointer;
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.pulse {
+	margin-top: 12rem; 
+	height: 30px;
+	width: 30px;
+	background: red;
+	-webkit-border-radius: 50%; 
+	border-radius: 50%; 
+	margin: 0 auto;
+	position: relative;
+	&:after {
+		content: '';
+		display: block;
+		height: 30px;
+		width: 30px;
+		-webkit-border-radius: 50%; 
+		border-radius: 50%; 
+		// position: absolute;
+		// top: 0;
+		// left: 0;
+		background: red;
+		// z-index: 999;
+		animation: growth 1s linear infinite;
+	}
+}
+
+@keyframes growth {
+	0% {
+		transform: scale(0.8);
+	}
+	33% {
+		transform: scale(1.2);
+		opacity: 0.5;
+	}
+	100% {
+		transform: scale(3.5);
+		opacity: 0;
+	}
+}

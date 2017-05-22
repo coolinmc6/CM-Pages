@@ -301,6 +301,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/sweet-random.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/sweet-random.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/data.txt": {
 		"ft": 8192,
 		"oA": 2,
@@ -1510,6 +1523,12 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/sweet-css\/random.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sweet-css\/random.php",
+		"oF": 0
 		},
 	"\/sweet-css\/spinners.php": {
 		"ft": 8192,
