@@ -1,4 +1,18 @@
+
+$blue: #3FA7D6;
+$blue2: #3FA7D6;
+$purple: #AA89ED;
+$green: #59CD90;
+$yellow: #FAC05E;
+$red: #EE6352;
+$orange: #FF6B35;
+
 $radius: 10px;
+
+* {
+	box-sizing: border-box;
+}
+
 .container {
 	width: 50px;
 	height: 20px;
@@ -28,18 +42,22 @@ $radius: 10px;
 
 .pulse {
 	margin-top: 12rem; 
-	height: 30px;
-	width: 30px;
+	height: 60px;
+	width: 60px;
 	background: red;
 	-webkit-border-radius: 50%; 
 	border-radius: 50%; 
 	margin: 0 auto;
-	position: relative;
+	position: fixed;
+	bottom: 2rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 999;
 	&:after {
 		content: '';
 		display: block;
-		height: 30px;
-		width: 30px;
+		height: 60px;
+		width: 60px;
 		-webkit-border-radius: 50%; 
 		border-radius: 50%; 
 		// position: absolute;
@@ -47,7 +65,7 @@ $radius: 10px;
 		// left: 0;
 		background: red;
 		// z-index: 999;
-		animation: growth 1s linear infinite;
+		animation: growth 2s linear infinite;
 	}
 }
 
@@ -64,3 +82,97 @@ $radius: 10px;
 		opacity: 0;
 	}
 }
+
+.style {
+	$rad: 4%;
+	width: 48%;
+	min-height: 50vw;
+	margin: 1%;
+	-webkit-border-radius: $rad; 
+	border-radius: $rad; 
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	.header {
+		font-size: 1.2rem;
+		text-align: center;
+		padding: 0.25rem;
+		font-weight: bold;  
+		color: #333;
+		font-family: cursive;
+	}
+	img {
+		max-width: 80%;
+		display: inline-block;
+		margin: 0 auto;
+	}
+	.points {
+		font-weight: bold;
+		color: #FFF;
+		font-family: sans-serif;
+		font-family: 'Architects Daughter', cursive;
+		// font-family: 'Pacifico', cursive;
+		// font-family: 'Walter Turncoat', cursive;
+		// font-family: 'Itim', cursive;
+	}
+}
+.bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 3rem;
+	color: #fff;
+	-webkit-border-radius-bottom-left: 10px;
+	border-radius-bottom-left: 10px;
+}
+.cat1 {
+	border: 3px solid $blue; 
+	.bottom {
+		background-color: $blue;
+	}
+	
+}
+
+.cat2 {
+	border: 3px solid $purple;
+	.bottom {
+		background-color: $purple;
+	}
+
+}
+.cat3 {
+	border: 3px solid $green;
+	.bottom {
+		background-color: $green;
+	}
+
+}
+.cat4 {
+	border: 3px solid $red;
+	.bottom {
+		background-color: $red;
+	}
+
+}
+.cat5 {
+	border: 3px solid $orange;
+	.bottom {
+		background-color: $orange;
+	}
+
+}
+
+.inner {
+	display: block;
+	opacity: 0
+}
+
+@media screen and (min-width: 769px) {
+	.style {
+		width: 31%;
+		// max-height: 350px;
+		min-height: initial;
+	}
+}
+

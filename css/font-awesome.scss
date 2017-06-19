@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+}
+
+.main {
+	position: relative;
+}
+.user-bar {
+	position: fixed;
+	bottom: 2rem;
+	left: 50%;
+	transform: translateX(-50%);
+	display: inline-block;
+	
+	
+}
+
+i.action {
+	font-size: 3rem;
+	animation: spin 1.5s linear infinite;
+	&:hover {
+		// animation: spin 1000s linear infinite;
+	} 	
+}
+
+.add-wo, .assign-wo {
+	position: absolute;
+	bottom: 4rem;
+}
+.add-wo {
+	left: -4rem;
+}
+.assign-wo {
+	right: -8rem;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg) scale(1);
+	}
+	50% {
+		transform: rotate(180deg) scale(1.5);
+	}
+	100% {
+		transform: rotate(360deg) scale(1);
+	}
+}

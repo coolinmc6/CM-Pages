@@ -192,6 +192,12 @@
 		"oAP": "\/codefights\/roundness.php",
 		"oF": 0
 		},
+	"\/cookies\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/cookies\/index.php",
+		"oF": 0
+		},
 	"\/css\/.sass-cache\/b796e2a87a7411d20da728d9fa0a1436b05d9796\/stylesheet1.scssc": {
 		"ft": 8192,
 		"oA": 2,
@@ -228,6 +234,29 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/font-awesome.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/font-awesome-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/font-awesome.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/font-awesome.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/index.css": {
 		"aP": 1,
 		"bl": 0,
@@ -257,6 +286,29 @@
 		"oAP": "\/css\/reset-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/css\/slidein.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/slidein-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/slidein.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/slidein.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/css\/spinners.css": {
 		"aP": 1,
@@ -301,6 +353,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/sweet-random.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/sweet-random-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/sweet-random.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -313,6 +375,17 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/css\/video_icon.png": {
+		"ft": 32768,
+		"iS": 69482,
+		"oA": 0,
+		"oAP": "\/css\/video_icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/data.txt": {
 		"ft": 8192,
@@ -1524,10 +1597,22 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sweet-css\/font-awesome.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sweet-css\/font-awesome.php",
+		"oF": 0
+		},
 	"\/sweet-css\/random.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sweet-css\/random.php",
+		"oF": 0
+		},
+	"\/sweet-css\/slidein.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sweet-css\/slidein.php",
 		"oF": 0
 		},
 	"\/sweet-css\/spinners.php": {

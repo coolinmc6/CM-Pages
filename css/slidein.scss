@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+.main {
+	height: 25000px;
+}
+.box {
+	opacity: 0;
+	width: 400px;
+	height: 400px;
+	background-color: blue;
+	border-bottom: 3px solid black;
+	transform: translateX(-100px);
+	transition: all 3000ms linear;
+	
+}
+
+
+.slide-in {
+	transform: translateX(500px);
+	opacity: 1;
+}

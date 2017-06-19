@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box; }
+
 .container {
   width: 50px;
   height: 20px;
@@ -26,22 +29,26 @@
 
 .pulse {
   margin-top: 12rem;
-  height: 30px;
-  width: 30px;
+  height: 60px;
+  width: 60px;
   background: red;
   -webkit-border-radius: 50%;
   border-radius: 50%;
   margin: 0 auto;
-  position: relative; }
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999; }
   .pulse:after {
     content: '';
     display: block;
-    height: 30px;
-    width: 30px;
+    height: 60px;
+    width: 60px;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: red;
-    animation: growth 1s linear infinite; }
+    animation: growth 2s linear infinite; }
 
 @keyframes growth {
   0% {
@@ -52,3 +59,73 @@
   100% {
     transform: scale(3.5);
     opacity: 0; } }
+
+.style {
+  width: 48%;
+  min-height: 50vw;
+  margin: 1%;
+  -webkit-border-radius: 4%;
+  border-radius: 4%;
+  display: inline-block;
+  text-align: center;
+  position: relative; }
+  .style .header {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0.25rem;
+    font-weight: bold;
+    color: #333;
+    font-family: cursive; }
+  .style img {
+    max-width: 80%;
+    display: inline-block;
+    margin: 0 auto; }
+  .style .points {
+    font-weight: bold;
+    color: #FFF;
+    font-family: sans-serif;
+    font-family: 'Architects Daughter', cursive; }
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3rem;
+  color: #fff;
+  -webkit-border-radius-bottom-left: 10px;
+  border-radius-bottom-left: 10px; }
+
+.cat1 {
+  border: 3px solid #3FA7D6; }
+  .cat1 .bottom {
+    background-color: #3FA7D6; }
+
+.cat2 {
+  border: 3px solid #AA89ED; }
+  .cat2 .bottom {
+    background-color: #AA89ED; }
+
+.cat3 {
+  border: 3px solid #59CD90; }
+  .cat3 .bottom {
+    background-color: #59CD90; }
+
+.cat4 {
+  border: 3px solid #EE6352; }
+  .cat4 .bottom {
+    background-color: #EE6352; }
+
+.cat5 {
+  border: 3px solid #FF6B35; }
+  .cat5 .bottom {
+    background-color: #FF6B35; }
+
+.inner {
+  display: block;
+  opacity: 0; }
+
+@media screen and (min-width: 769px) {
+  .style {
+    width: 31%;
+    min-height: initial; } }
