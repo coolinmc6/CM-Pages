@@ -214,6 +214,29 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/breakout.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/breakout-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/breakout.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/breakout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/carousel.css": {
 		"aP": 1,
 		"bl": 0,
@@ -676,6 +699,30 @@
 		"oA": 0,
 		"oAP": "\/JS-es2015.php",
 		"oF": 0
+		},
+	"\/JS-Game\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/JS-Game\/index.php",
+		"oF": 0
+		},
+	"\/JS-Game\/min\/script-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/JS-Game\/min\/min\/script-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/JS-Game\/script.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/JS-Game\/min\/script-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/JS-logic.php": {
 		"ft": 8192,
