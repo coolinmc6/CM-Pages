@@ -1656,6 +1656,12 @@
 		"oAP": "\/sweet-css\/random.php",
 		"oF": 0
 		},
+	"\/sweet-css\/read-progress.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sweet-css\/read-progress.php",
+		"oF": 0
+		},
 	"\/sweet-css\/slidein.php": {
 		"ft": 8192,
 		"oA": 2,

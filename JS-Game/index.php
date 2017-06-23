@@ -11,6 +11,6 @@
 	<br>
 	<canvas id="mycanvas" width="480px" height="320px"></canvas>
 
-	<script src="script.js"></script>
+	<script src="script.js?<?php echo rand() ?>"></script>
 </body>
 </html>
