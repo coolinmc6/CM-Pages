@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box; }
+
+h1 {
+  text-align: center; }
+
+code {
+  color: #C7254E;
+  background-color: #F9F2F4;
+  padding: 0.25rem;
+  -webkit-border-radius: 2px;
+  border-radius: 2px; }
+
+.form-row {
+  padding: 10px 0;
+  display: flex; }
+
+.form-row label {
+  padding-right: 10px; }
+
+.form-row input {
+  flex: 1; }
+
+.column-layout {
+  display: flex; }
+
+.main-column, .sidebar-one, .sidebar-two {
+  padding: 0.5rem; }
+
+.main-column {
+  flex: 3;
+  order: 2; }
+
+.sidebar-one {
+  flex: 1;
+  order: 1; }
+
+.sidebar-two {
+  flex: 1;
+  order: 3; }

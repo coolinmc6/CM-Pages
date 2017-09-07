@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Object Oriented JavaScript</title>
+</head>
+<body>
+	To create a snippet:
+	<ul>
+		<li>New file in text editor</li>
+		<li>Save As</li>
+		<li>Go to:  /Users/yourname/Library/Application Support/Sublime Text 3/Packages/User</li>
+		<ul>
+			<li>If you aren't seeing it, CMD + SHIFT + . shows hidden files/directories which Library is typically hidden</li>
+		</ul>
+		<li>Save as [filename].sublime-snippet</li>
+		<li>Bring in snippet code which typically looks like this:</li>
+		<xmp>
+<snippet>
+<content><![CDATA[
+Hello, ${1:this} is a ${2:snippet}.
+]]></content>
+<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<!-- <tabTrigger>hello</tabTrigger> -->
+<!-- Optional: Set a scope to limit where the snippet will trigger -->
+<!-- <scope>source.python</scope> -->
+</snippet>
+		</xmp>
+		<li>Enable tagTrigger with your trigger words/letters</li>
+		<li>Save it</li>
+	</ul>
+
+	<script>
+		function getSum(num1, num2) {
+			return num1 + num2;
+		}
+
+		document.write( "Number of arguments: " + getSum.length + "<br />");
+
+		function Mammal(name) {
+			this.name = name;
+			this.getInfo = function() {
+				return "The mammals name is " + this.name
+			}
+		}
+
+		Mammal.prototype.sound = "Grrrrr";
+
+		Mammal.prototype.makeSound = function() {
+			return this.name + " says " + this.sound
+		}
+
+		var grover = new Mammal('Grover');
+
+		document.write(grover.makeSound() + "<br />");
+
+		for(var prop in grover) {
+			document.write(prop + " : " + grover[prop] + "<br />");
+		}
+
+		document.write("name Property of grover : " + grover.hasOwnProperty("name") + "<br />");
+		document.write("sound Property of Grover : " + grover.hasOwnProperty() + "<br />");
+
+		Array.prototype.inArray = function inArray(value) {
+			for(i = 0; i < this.length; i++) {
+				if(this[i] === value) {
+					return true;
+				}
+			}
+
+			return false;
+		}
+
+		var sampArray = [1,2,3,4,5];
+		document.write(sampArray.inArray(3) + "<br />");
+
+
+
+
+
+	</script>
+</body>
+</html>
