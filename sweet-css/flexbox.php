@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>FlexBox</title>
+	<link rel="stylesheet" href="../css/reset.css">
 	<link rel="stylesheet" href="../css/flexbox.css">
 </head>
 <body>
@@ -42,6 +43,27 @@
 	</div>
 
 	<div class="container">
+		<h1>Example #3</h1>
+		<div class="call-outs-container">
+			<div class="call-out red">
+				<h4>Feature 1</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia non nam soluta omnis officiis quod tempore, explicabo est molestiae ad maiores sint cupiditate iusto, fuga magnam voluptatibus, voluptatem inventore consectetur.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum iusto earum aspernatur repellendus sequi eligendi doloribus quia nesciunt maxime nam quidem porro, magnam fugit distinctio impedit voluptatum veniam! Magni, minus.</p>
+			</div>
+			<div class="call-out blue">
+				<h4>Feature 2</h4>
+				<p>Neque velit itaque, fugit eaque doloremque! Nostrum iste, praesentium, aliquid cupiditate earum, numquam cum incidunt commodi nesciunt minima illo at adipisci voluptate maxime fuga. Ab ipsam aspernatur eius excepturi sed!  incidunt commodi nesciunt minima illo at adipisci voluptate maxime fuga. Ab ipsam aspernatur eius excepturi sed!</p>
+			</div>
+			<div class="call-out green">
+				<h4>Feature 3</h4>
+				<p>Ad velit illum rem incidunt amet non sapiente libero nostrum. Quibusdam repellat tenetur dolorem nulla velit fugit perferendis doloremque, quia natus aliquam praesentium aliquid suscipit sit. Voluptatum quas, beatae aliquam.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- ******************************************* NOTES *******************************************  -->
+	
+	<div class="container">
 		<h1>Notes</h1>
 		<strong>Summary Notes</strong>
 		<ul>
@@ -54,7 +76,9 @@
 			<li>By giving the input element <code>flex: 1;</code>, it will take up the rest of the width.  If I also gave the label <code>flex: 1;</code>, they would take up an equal width.</li>
 		</ul>
 		<strong>Example 2</strong>
+
 	</div>
+	
 	
 	
 </body>
