@@ -4,6 +4,16 @@
 	<meta charset="UTF-8">
 	<title>Sorting Arrays</title>
 	
+	<style>
+		table, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		td {
+			padding: 0.25rem;
+			text-align: center;
+		}
+	</style>
 </head>
 <body>
 	<div>
@@ -75,7 +85,15 @@
 
 			} else {
 				foreach ($arr as $row) {
-					echo $c . ' - ' . $row['store_name'] . ' -- $' . $row['price'] . ' -- ' . $row['distance'] ." miles<br>";
+					// echo $c . ' - ' . $row['store_name'] . ' -- $' . $row['price'] . ' -- ' . $row['distance'] ." miles<br>";
+					$dist = $row['distance'] > 10 ? 'TOO FAR' : '';
+					echo "<tr>";
+					echo "<td>" . $c . "</td>";
+					echo "<td>" . $row['store_name'] . "</td>";
+					echo "<td>$" . $row['price'] . "</td>";
+					echo "<td>" . $row['distance'] . " miles</td>";
+					echo "<td>$dist</td>";
+					echo "</tr>";
 					$c++;
 				}	
 			}
@@ -109,6 +127,7 @@
 			}
 			echo "<br>";
 		}
+
 		// Stores
 		echo "Initial Array of Stores<br>";
 		$milkStores = [];
@@ -116,8 +135,9 @@
 			$arr = createMilkArray();
 			array_push($milkStores, $arr);
 		}
-
+		echo "<table>";
 		printArray($milkStores, 'test');
+		echo "</table>";
 
 		echo "<br><br>";
 
@@ -155,6 +175,24 @@
 
 
 	</div>
+	<hr>
+
+	<h3>Initial List of Stores</h3>
+	<table>
+	<?php 
+		$newMilkStores = [];
+		for ($i=0; $i < 20; $i++) { 
+			$arr = createMilkArray();
+			array_push($newMilkStores, $arr);
+		}
+		printArray($newMilkStores, 'other');
+	 ?>
+ 	</table>
+
+ 	<?php 
+ 	printMilkFacts($newMilkStores);
+ 	 ?>
+
 
 	
 </body>
