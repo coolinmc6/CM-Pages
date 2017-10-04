@@ -13,6 +13,9 @@
 			padding: 0.25rem;
 			text-align: center;
 		}
+		h3 {
+			margin-bottom: 0rem;
+		}
 	</style>
 </head>
 <body>
@@ -102,31 +105,48 @@
 
 		function printMilkFacts($arr) {
 
+			// #0 - Set tab type
+			$tab = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+			// $tab = "\t";
+
+			// #1 - Print first blank line and header
 			echo "<br>Cheapest<br>";
 
+			// #2 - Sort the array by price, ascending
 			$price = [];
 			foreach ($arr as $key => $value) {
 				$price[$key] = $value['price'];
 			}
 			array_multisort($price, SORT_ASC, $arr);
+
+			// #3 - Print only the first three (lowest) store names and prices that are < 10 miles away
 			$count = 0;
 			foreach ($arr as $row) {
 				if($row['distance'] < 10 && $count < 3) {
-					echo $row['store_name'] . "\t" . $row['distance'] . " miles<br>";
+					echo $row['store_name'] . $tab . $row['price'] . "<br>";
 					$count++;
 				}
 			}
+
+			// #4 - Print blank line and next header
 			echo "<br>Closest</br>";
+
+			// #5 - Sort array by distance, ascending
 			$distance = [];
 			foreach($arr as $key => $value) {
 				$distance[$key] = $value['distance'];
 			}
+
 			array_multisort($distance, SORT_ASC, $arr);
+
+			// #6 - Print stores names and prices of three closest
 			for ($i=0; $i < 3; $i++) { 
-				echo $arr[$i]['store_name'] . "\t $" . $arr[$i]['price'] . "<br>";
+				echo $arr[$i]['store_name'] . $tab . $arr[$i]['price'] . "<br>";
 			}
 			echo "<br>";
 		}
+
+
 
 		// Stores
 		echo "Initial Array of Stores<br>";
@@ -176,7 +196,7 @@
 
 	</div>
 	<hr>
-
+	<h1>Final Version</h1>
 	<h3>Initial List of Stores</h3>
 	<table>
 	<?php 
@@ -188,7 +208,7 @@
 		printArray($newMilkStores, 'other');
 	 ?>
  	</table>
-
+	<h3>Output</h3>
  	<?php 
  	printMilkFacts($newMilkStores);
  	 ?>
