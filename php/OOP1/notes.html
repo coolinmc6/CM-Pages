@@ -79,5 +79,100 @@ $person-&gt;age = 20;
 <li>the variables <code>$name</code> and <code>$age</code> were declared above this constructor</li>
 </ul>
 
+<h2 id="inheritance">Inheritance</h2>
+
+<ul>
+<li>Inheritance means that every property and method is extended from the class that is inherited. Look at the
+code below and see how both Pigeon and Penguin get all the same properties (read: variables) and methods
+(read: functions) as Bird despite being essentially blank.</li>
+</ul>
+
+<pre><code class="php">// Bird.php
+class Bird {
+
+    public $canFly;
+    public $legCount;
+
+    public function __construct($canFly, $legCount) {
+        $this-&gt;canFly = $canFly;
+        $this-&gt;legCount = $legCount;
+    }
+
+    public function canFly() {
+        return $this-&gt;canFly;
+    }
+
+
+    public function getLegCount() {
+        return $this-&gt;legCount;
+    }
+}
+
+// Pigeon.php
+class Pigeon extends Bird {
+
+}
+
+// Penguin.php
+class Penguin extends Bird {
+
+}
+</code></pre>
+
+<ul>
+<li>&#8230;but both can use all the same functions/properties:</li>
+</ul>
+
+<pre><code class="php">$pigeon = new Pigeon(true, 2);
+
+echo $pigeon-&gt;getLegCount() . &quot;&lt;br&gt;&quot;;
+</code></pre>
+
+<h2 id="visibility">Visibility</h2>
+
+<ul>
+<li>There are three scopes: public, protected, private. Here are some basic definitions / notes:</li>
+<li>public -&gt; that variable or function can be accessed from anywhere, or from other classes or
+ instances of the object.</li>
+<li>protected -&gt; visible to all classes that extend its current class</li>
+<li>private -&gt; only visible in its own class</li>
+<li>Look at the code below for an interesting example:</li>
+</ul>
+
+<pre><code class="php">// Penguin.php
+class Penguin extends Bird {
+    
+    public function foo() {
+        echo $this-&gt;legCount;
+    }
+}
+
+// Bird.php
+class Bird {
+
+    protected $canFly;
+    protected $legCount;
+    
+    // MORE CODE
+}
+
+// index.php
+echo $penguin-&gt;foo();  // 2
+echo $penguin-&gt;legCount;  // Fatal error
+</code></pre>
+
+<ul>
+<li>so Penguin extends Bird and has a public function, foo(), that echo&#8217;s the legCount, a protected variable</li>
+<li>I also try to echo the legCount directly using <code>$penguin-&gt;legCount</code>.</li>
+<li>The first works, the second one fails</li>
+<li>The first one calls a public function</li>
+<li>The second one is trying to directly use an inherited, protected property, legCount.</li>
+<li>Notice that both are essentially trying to do the same thing. The first one, however, is a public function
+ that has access/visibility to the protected variable <code>$legCount</code>.</li>
+<li>There are definitely some more examples I&#8217;d like to see but this is a great example</li>
+</ul>
+
+<p>Start here: <a href="https://youtu.be/pDxVRtPXpqY">https://youtu.be/pDxVRtPXpqY</a></p>
+
 </body>
 </html>

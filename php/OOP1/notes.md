@@ -63,4 +63,94 @@ public function __construct($name, $age) {
 ```
   - the variables `$name` and `$age` were declared above this constructor
 
+## Inheritance
+
+- Inheritance means that every property and method is extended from the class that is inherited. Look at the
+code below and see how both Pigeon and Penguin get all the same properties (read: variables) and methods
+(read: functions) as Bird despite being essentially blank.
+
+```php
+// Bird.php
+class Bird {
+
+	public $canFly;
+	public $legCount;
+
+	public function __construct($canFly, $legCount) {
+		$this->canFly = $canFly;
+		$this->legCount = $legCount;
+	}
+
+	public function canFly() {
+		return $this->canFly;
+	}
+
+
+	public function getLegCount() {
+		return $this->legCount;
+	}
+}
+
+// Pigeon.php
+class Pigeon extends Bird {
+
+}
+
+// Penguin.php
+class Penguin extends Bird {
+
+}
+```
+
+- ...but both can use all the same functions/properties:
+
+```php
+$pigeon = new Pigeon(true, 2);
+
+echo $pigeon->getLegCount() . "<br>";
+```
+
+## Visibility
+
+- There are three scopes: public, protected, private. Here are some basic definitions / notes:
+  - public -> that variable or function can be accessed from anywhere, or from other classes or
+  instances of the object.
+  - protected -> visible to all classes that extend its current class
+  - private -> only visible in its own class
+- Look at the code below for an interesting example:
+
+```php
+// Penguin.php
+class Penguin extends Bird {
+	
+	public function foo() {
+		echo $this->legCount;
+	}
+}
+
+// Bird.php
+class Bird {
+
+	protected $canFly;
+	protected $legCount;
+	
+	// MORE CODE
+}
+
+// index.php
+echo $penguin->foo();  // 2
+echo $penguin->legCount;  // Fatal error
+```
+
+  - so Penguin extends Bird and has a public function, foo(), that echo's the legCount, a protected variable
+  - I also try to echo the legCount directly using `$penguin->legCount`.
+  - The first works, the second one fails
+  - The first one calls a public function 
+  - The second one is trying to directly use an inherited, protected property, legCount.
+  - Notice that both are essentially trying to do the same thing. The first one, however, is a public function
+  that has access/visibility to the protected variable `$legCount`.
+  - There are definitely some more examples I'd like to see but this is a great example
+
+Start here: [https://youtu.be/pDxVRtPXpqY](https://youtu.be/pDxVRtPXpqY)
+
 
