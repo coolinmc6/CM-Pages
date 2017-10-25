@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<h1 id="phpoopnotes">PHP OOP Notes</h1>
+
+<h2 id="oopbasics">OOP Basics</h2>
+
+<ul>
+<li>Defining a class</li>
+</ul>
+
+<pre><code class="php">class Person {
+
+    public $name;
+    public $age;
+
+    public function sentence() {
+        echo $this-&gt;name . &quot; is &quot; . $this-&gt;age;
+    }
+
+}
+</code></pre>
+
+<ul>
+<li>you can include the class (which should be in a different file) so that you can use it</li>
+<li>to instantiate a new Person object:</li>
+</ul>
+
+<pre><code class="php">$person = new Person;
+</code></pre>
+
+<ul>
+<li>Now, the <code>$person</code> object can be manipulated.</li>
+<li>You can change the person&#8217;s name and age by:</li>
+</ul>
+
+<pre><code class="php">$person-&gt;name = 'John';
+$person-&gt;age = 20;
+</code></pre>
+
+<ul>
+<li>Classes can also have methods. Here is how you call the Person method:</li>
+</ul>
+
+<pre><code class="php">$person-&gt;sentence();
+</code></pre>
+
+<h2 id="constructors">Constructors</h2>
+
+<ul>
+<li>Constructors allow us to remove the extra code below</li>
+</ul>
+
+<pre><code class="php">$person-&gt;name = 'John';
+$person-&gt;age = 20;
+</code></pre>
+
+<ul>
+<li>&#8230;and replace it with something like this:</li>
+</ul>
+
+<pre><code class="php">$person = new Person('John', 20);
+</code></pre>
+
+<ul>
+<li>This is how you build a constructor:</li>
+</ul>
+
+<pre><code class="php">public function __construct($name, $age) {
+    $this-&gt;name = $name;
+    $this-&gt;age = $age;
+}
+</code></pre>
+
+<ul>
+<li>the variables <code>$name</code> and <code>$age</code> were declared above this constructor</li>
+</ul>
+
+</body>
+</html>
