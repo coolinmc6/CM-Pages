@@ -40,7 +40,17 @@ echo "<hr>";
 
 
 echo $penguin->foo();
-echo $penguin->legCount;
+// echo $penguin->legCount;
+
+
+echo "<hr>";
+
+include('Chest.php');
+include('Lock.php');
+
+$chest = new Chest(new Lock);
+// $chest = new Chest('test');
+$chest->close();
 
 
  ?>

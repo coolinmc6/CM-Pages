@@ -153,4 +153,44 @@ echo $penguin->legCount;  // Fatal error
 
 Start here: [https://youtu.be/pDxVRtPXpqY](https://youtu.be/pDxVRtPXpqY)
 
+## Dependency Injection
+
+
+## Interfaces
+- Countable
+- JsonSerializable
+- an interface is essentially a blueprint for a class
+
+## Magic Methods
+
+```php
+__set()
+__get()
+__call()
+__toString()
+```
+
+- play around with and learn the magic methods
+
+## Abstract Methods
+
+
+
+## Static
+- you should not rely on static in your code
+- it means that you can call the method without instantiating a new object
+
+
+## Method Chaining
+
+
+## Building the Calculator
+- Start on video 12
+
+
+
+
+
+
+
 
