@@ -185,7 +185,7 @@ __toString()
 
 
 ## Building the Calculator
-- Start on video 12
+
 
 
 

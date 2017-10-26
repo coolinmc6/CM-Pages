@@ -1176,16 +1176,70 @@
 		"oAP": "\/php\/array-sort.php",
 		"oF": 0
 		},
+	"\/php\/dates.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/dates.php",
+		"oF": 0
+		},
 	"\/php\/OOP1\/Bird.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/OOP1\/Bird.php",
 		"oF": 0
 		},
+	"\/php\/OOP1\/Chest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/OOP1\/Chest.php",
+		"oF": 0
+		},
+	"\/php\/OOP1\/classes\/Adder.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/OOP1\/classes\/Adder.php",
+		"oF": 0
+		},
+	"\/php\/OOP1\/classes\/Calculator.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/OOP1\/classes\/Calculator.php",
+		"oF": 0
+		},
+	"\/php\/OOP1\/classes\/Divider.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/OOP1\/classes\/Divider.php",
+		"oF": 0
+		},
+	"\/php\/OOP1\/classes\/Multiplier.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/OOP1\/classes\/Multiplier.php",
+		"oF": 0
+		},
+	"\/php\/OOP1\/classes\/OperatorInterface.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/OOP1\/classes\/OperatorInterface.php",
+		"oF": 0
+		},
+	"\/php\/OOP1\/classes\/Subtractor.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/OOP1\/classes\/Subtractor.php",
+		"oF": 0
+		},
 	"\/php\/OOP1\/index.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/OOP1\/index.php",
+		"oF": 0
+		},
+	"\/php\/OOP1\/Lock.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/OOP1\/Lock.php",
 		"oF": 0
 		},
 	"\/php\/OOP1\/notes.html": {
@@ -1272,6 +1326,12 @@
 		"oAP": "\/random\/capture-url.php",
 		"oF": 0
 		},
+	"\/random\/check.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/random\/check.php",
+		"oF": 0
+		},
 	"\/random\/console.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -1316,6 +1376,12 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/random\/passwords.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/random\/passwords.php",
+		"oF": 0
 		},
 	"\/random\/percentage.php": {
 		"ft": 8192,

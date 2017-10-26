@@ -1,8 +1,8 @@
 <?php
 
-class Adder
+class Adder implements OperatorInterface
 {
-	public function run($number, $result);
+	public function run($number, $result)
 	{
 		return $result + $number;
 	}

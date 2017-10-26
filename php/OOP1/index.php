@@ -45,12 +45,81 @@ echo $penguin->foo();
 
 echo "<hr>";
 
-include('Chest.php');
-include('Lock.php');
+// include('Chest.php');
+// include('Lock.php');
 
-$chest = new Chest(new Lock);
-// $chest = new Chest('test');
-$chest->close();
+// $chest = new Chest(new Lock);
+// // $chest = new Chest('test');
+// $chest->close();
+
+
+echo "<hr>";
+echo "<h1>Calculator</h1>";
+
+// ORIGINAL
+// require_once 'classes/Calculator.php';
+// require_once 'classes/OperatorInterface.php';
+// require_once 'classes/Adder.php';
+// require_once 'classes/Subtractor.php';
+// require_once 'classes/Multiplier.php';
+// require_once 'classes/Divider.php';
+
+// AUTOLOAD 
+spl_autoload_register(function($class) {
+	require_once "classes/{$class}.php";	
+});
+
+
+$c = new Calculator;
+
+$c->setOperation(new Adder);
+$c->calculate(10,50);
+
+$c->setOperation(new Subtractor);
+$c->calculate(30);
+
+$c->setOperation(new Multiplier);
+$c->calculate(10);
+
+$c->setOperation(new Divider);
+$c->calculate(5);
+
+
+echo $c->getResult();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  ?>
