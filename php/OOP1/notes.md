@@ -163,6 +163,9 @@ Start here: [https://youtu.be/pDxVRtPXpqY](https://youtu.be/pDxVRtPXpqY)
 
 ## Magic Methods
 
+[http://culttt.com/2014/04/16/php-magic-methods/](http://culttt.com/2014/04/16/php-magic-methods/)
+
+
 ```php
 __set()
 __get()
