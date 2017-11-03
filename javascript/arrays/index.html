@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript Array Methods</title>
+</head>
+<body>
+	<script>
+		var arr1 = ['stuff'];
+		var arr2 = ['cookie'];
+		var arr3 = ['food'];
+		arr1 = arr1.concat(arr2, arr3);
+		console.log(arr1);
+
+		arr1.push('pizza');
+		arr1.push('soda');
+		arr1.push('cookie');
+
+		var num = arr1.indexOf('cookie');
+		var last = arr1.lastIndexOf('cookie');
+		console.log(num, last);
+
+
+
+		var newString = arr1.join('');
+		console.log(newString);
+		console.log(arr1);
+
+		var superArray = [];
+		superArray.push(arr1);
+		superArray.push(arr2)
+		superArray.push(arr3)
+		console.log(superArray);
+		var superString = superArray.join(' - ');
+		console.log(superString);
+
+		console.log(arr1);
+		arr1.pop();
+		console.log(arr1);
+
+		arr1.push('stuff', 'more stuff', 'even more stuff', 'food stuffs');
+		
+		console.log('Original Order: ',arr1);
+		arr1.reverse();
+		console.log('Reverse Order: ',arr1);
+
+		var bc = arr1.shift();
+		console.log(bc, arr1);
+
+		console.log(arr1.slice(3,5))
+		console.log(arr1);
+
+
+
+
+
+
+
+
+
+
+
+	</script>
+	
+</body>
+</html>
