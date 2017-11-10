@@ -729,6 +729,78 @@
 		"oAP": "\/javascript\/arrays\/index.html",
 		"oF": 0
 		},
+	"\/javascript30\/day01.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/day01.html",
+		"oF": 0
+		},
+	"\/javascript30\/day04.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/day04.html",
+		"oF": 0
+		},
+	"\/javascript30\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/index.html",
+		"oF": 0
+		},
+	"\/javascript30\/sounds\/boom.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/sounds\/boom.wav",
+		"oF": 0
+		},
+	"\/javascript30\/sounds\/clap.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/sounds\/clap.wav",
+		"oF": 0
+		},
+	"\/javascript30\/sounds\/hihat.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/sounds\/hihat.wav",
+		"oF": 0
+		},
+	"\/javascript30\/sounds\/kick.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/sounds\/kick.wav",
+		"oF": 0
+		},
+	"\/javascript30\/sounds\/openhat.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/sounds\/openhat.wav",
+		"oF": 0
+		},
+	"\/javascript30\/sounds\/ride.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/sounds\/ride.wav",
+		"oF": 0
+		},
+	"\/javascript30\/sounds\/snare.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/sounds\/snare.wav",
+		"oF": 0
+		},
+	"\/javascript30\/sounds\/tink.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/sounds\/tink.wav",
+		"oF": 0
+		},
+	"\/javascript30\/sounds\/tom.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/sounds\/tom.wav",
+		"oF": 0
+		},
 	"\/JS-es2015.php": {
 		"ft": 8192,
 		"oA": 0,
