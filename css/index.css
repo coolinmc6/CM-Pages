@@ -130,3 +130,11 @@ th:nth-child(3) {
 	width: 50%;
 }
 
+code {	
+	color: #C7254E;
+	background-color: #F9F2F4;
+	padding: 0.25rem;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}	
+
