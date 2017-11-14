@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+	<h1>Users born after 1975</h1>
+	<div class="youngsters"></div>
+	
+	
+	<h1>Mapping Items</h1>
+	<div class="container pictures">
+		
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script>
+		
+		$.ajax({
+		  url: 'https://randomuser.me/api/?results=100',
+		  dataType: 'json',
+		  success: function(data) {
+		    console.log(data);
+
+
+		    // Filter
+		    const filter1 = data.results.slice();
+
+		    const d1 = new Date('01/01/1975');
+		    // Users born after 1975
+		    const youngsters = filter1.filter(item => {
+				return parseInt(item.dob.slice(0,4)) > 1975 ? true : false;		    	
+		    })
+
+		    const men = filter1.filter(item => {
+		    	return item.gender == "male" ? true : false;
+		    })
+
+		    const women = filter1.filter(item => {
+		    	return item.gender == "female" ? true : false;
+		    })
+		    console.log(youngsters, men, women);
+
+
+		    // Map
+		    const map1 = data.results.slice();
+
+		    map1.map(item => {
+
+		    	let d = document.createElement('div');
+		    	$(d).addClass('col-lg-2 col-md-3 col-sm-4 col-xs-6');
+		    	let img = document.createElement('img');
+		    	$(img).attr('src', item.picture.medium);
+		    	$(img).addClass('thumbnail')
+		    	let p = document.createElement('p');
+		    	$(p).addClass('lead');
+		    	$(p).append(item.name.first, ' ', item.name.last)
+		    	let d2 = document.createElement('div');
+		    	let s = document.createElement('span');
+		    	$(s).append(item.gender)
+		    	let cl = item.gender == 'male' ? 'label label-primary' : 'label label-success';
+		    	$(s).addClass(cl)
+		    	
+		    	$(d2).append(s);
+
+
+
+		    	
+
+		    	$(d).append(p,img, d2);
+		    	$('.pictures').append(d);
+		    })
+
+
+
+		    // Sort
+		    
+
+
+
+
+		    // Reduce
+
+
+
+
+		  }
+		});
+	</script>
+	
+</body>
+</html>
