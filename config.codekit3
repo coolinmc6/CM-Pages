@@ -729,6 +729,12 @@
 		"oAP": "\/javascript\/arrays\/index.html",
 		"oF": 0
 		},
+	"\/javascript\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript\/index.html",
+		"oF": 0
+		},
 	"\/javascript30\/day01.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1248,6 +1254,12 @@
 		"oAP": "\/PHP-Web-Dev-4th\/PHPandMySQLWebDevelopmentFourthEdition.pdf",
 		"oF": 0
 		},
+	"\/php\/.htaccess": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/.htaccess",
+		"oF": 0
+		},
 	"\/php\/array-sort.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1258,6 +1270,42 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/dates.php",
+		"oF": 0
+		},
+	"\/php\/generators.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/generators.php",
+		"oF": 0
+		},
+	"\/php\/interview-questions\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/interview-questions\/index.php",
+		"oF": 0
+		},
+	"\/php\/interview-questions\/strings.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/interview-questions\/strings.php",
+		"oF": 0
+		},
+	"\/php\/interview-questions\/template.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/interview-questions\/template.php",
+		"oF": 0
+		},
+	"\/php\/interview-questions\/test.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/interview-questions\/test.php",
+		"oF": 0
+		},
+	"\/php\/interview-questions\/variable-reference.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/interview-questions\/variable-reference.php",
 		"oF": 0
 		},
 	"\/php\/oop-practice.php": {
