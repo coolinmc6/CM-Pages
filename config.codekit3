@@ -1611,6 +1611,12 @@
 		"oAP": "\/random\/which.php",
 		"oF": 0
 		},
+	"\/random\/worldcup.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/random\/worldcup.php",
+		"oF": 0
+		},
 	"\/react-practice\/app\/components\/app.js": {
 		"ft": 64,
 		"mi": 1,

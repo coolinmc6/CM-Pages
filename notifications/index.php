@@ -26,6 +26,7 @@
 			width: 40px;
 			height: 40px;
 			position: relative;
+			cursor: pointer;
 		}
 		.icon:hover {
 			background-color: #ccc;
@@ -84,12 +85,27 @@
 			padding: 0.3rem;
 			
 		}
+		.note:hover {
+			background-color: #aaa;
+		}
 		.unread {
 			background-color: #ddd;
 		}
 
 		.icon:hover .messages {
 			display: block;
+		}
+
+		.center {
+			text-align: center;
+		}
+		table, td, th {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		td, th {
+			padding: 0.2rem;
+			text-align: center;
 		}
 
 	</style>
@@ -109,6 +125,10 @@
 		</div>
 		<div class="container">
 			<div class="add-btn">+</div>
+			<div class="center">
+				<button class="click">Click Handler</button>	
+			</div>
+			
 			<div class="text">
 				<h1>Notifications</h1>
 				<ul>
@@ -131,6 +151,46 @@
 					<li>Group notifications => several for a particular item, group it</li>
 					<ul>
 						<li>Notification Type &amp; ID => if several new notifications by type and ID, group them together. If more than 3, and unread, group into 1.</li>
+						<ul>
+							<li>Example: if for a Job Posting, and the person posts two jobs with ID's 1 
+								and 2, one candidate applying results in a notificatin of the type (i.e. <em>job application</em>) followed by the ID of the job. It could like this:</li>
+							<li>
+								<table>
+									<tr>
+										<th>user_id</th>
+										<th>user_type</th>
+										<th>notification type</th>
+										<th>notification type identifier</th>
+										<th>was notification read</th>
+										<th>date read</th>
+									</tr>
+									<tr>
+										<td>1</td>
+										<td>employer</td>
+										<td>job application</td>
+										<td>2</td>
+										<td>0</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>1</td>
+										<td>employer</td>
+										<td>job application</td>
+										<td>1</td>
+										<td>0</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>1</td>
+										<td>employer</td>
+										<td>job application</td>
+										<td>2</td>
+										<td>0</td>
+										<td></td>
+									</tr>
+								</table>
+							</li>
+						</ul>
 						<li>Message &amp; Person => group messages by person, not just the existence of a message</li>
 						
 					</ul>
@@ -172,6 +232,10 @@
 			})
 		}, 2500);
 
+		// $('.icon').on('click', function() {
+		// 	$('.icon:hover .messages').css('display', 'block');
+		// })
+
 		(function() {
 			$.post('notifications.php', {getOldNotifications: 1}, function(data) {
 				var objects = JSON.parse(data);
@@ -201,7 +265,23 @@
 				$(this).removeClass('unread');	
 			}, 1250);
 			
-		})
+		});
+
+		(function() {
+			var click = document.querySelector('.click');
+			var clicked = false;
+			var count = 1;
+			click.addEventListener('click', function() {
+				if(!clicked) {
+					console.log('first click');
+				} else {
+					console.log('some other click: ', count)
+				}
+				clicked = true;
+				count++;
+				console.dir(this);
+			})
+		})();
 			
 	
 	</script>
