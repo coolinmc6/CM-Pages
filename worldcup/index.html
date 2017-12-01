@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>World Cup Analysis</title>
+	<link rel="stylesheet" href="../css/worldcup-styles.css">
+</head>
+<body>
+
+	<div id="root"></div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+	<script src="groups.js"></script>
+	<script type="text/babel">
+
+		
+		/* function Group(props) {
+			
+			return (
+				<div className="group">
+					<h2>{props.group.name}</h2>
+				</div>
+			)
+			
+		} */
+
+		class Group extends React.Component {
+			constructor(props) {
+				super(props);
+
+				this.state = {
+					winner: '',
+					runnerUp: '',
+					losers: []
+				}
+			}
+
+			function changeStatus() {
+				
+			}
+
+			renderTeams() {
+				return this.props.group.group.map( (item) => {
+					console.log(item);
+					return (
+						<div className="row" key={item.name}>
+							{item.name}
+							<div className="buttons">
+								<span className="winner btn">1</span>
+								<span className="runner-up btn">2</span>
+								<span className="loser btn">X</span>
+
+							</div>
+							
+						</div>
+
+					)
+				})
+			}
+
+			render() {
+				return (
+					<div className="group">
+						<h2>{this.props.group.name}</h2>
+						{this.renderTeams()}
+
+					</div>
+				)
+			}
+		}
+		
+		class App extends React.Component {
+			render() {
+				return (
+					<div className="main">
+						<div className="left">
+							<Group group={groupA} />
+							<Group group={groupB} />
+							<Group group={groupC} />
+							<Group group={groupD} />	
+						</div>
+						<div className="right">
+							<Group group={groupE} />
+							<Group group={groupF} />
+							<Group group={groupG} />
+							<Group group={groupH} />	
+						</div>
+						
+						
+					</div>
+				);
+			}
+		}
+			
+		ReactDOM.render(
+			<App />,
+			document.getElementById('root')
+		);
+	</script>	
+</body>
+</html>

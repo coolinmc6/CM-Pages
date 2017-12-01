@@ -2048,6 +2048,43 @@
 		"oAP": "\/Udemy-Chat-php-ajax\/style-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/worldcup\/groups.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/worldcup\/min\/groups-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/worldcup\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/worldcup\/index.html",
+		"oF": 0
+		},
+	"\/worldcup\/min\/groups-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/worldcup\/min\/min\/groups-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/worldcup\/worldcup-styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/worldcup-styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		}
 	},
 "hooks": [

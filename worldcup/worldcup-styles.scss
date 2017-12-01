@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+}
+.group {
+	width: 49%;
+	// display: inline-block;
+}
+
+.left, .right {
+	width: 49%;
+	display: inline-block;
+	
+}
+
+.row {
+	position: relative;
+	display: block;
+	height: 60px;
+}
+
+.buttons {
+	position: absolute;
+	top: 0;
+	right: 30%;
+}
+.btn {
+	padding: 0.2rem 0.35rem;
+	border: 2px solid black;
+}
+.winner {
+	color: gold;
+	border-color: gold;
+}
+.runner-up {
+	color: silver;
+	border-color: silver;
+}
+.loser {
+	display: inline-block;
+	color: red;
+	border: 2px solid red;
+	 
+}
