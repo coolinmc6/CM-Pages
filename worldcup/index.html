@@ -10,6 +10,8 @@
 	<div id="root"></div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/redux/3.7.2/redux.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react-redux/5.0.6/react-redux.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
 	<script src="groups.js"></script>
 	<script type="text/babel">
@@ -25,32 +27,47 @@
 			
 		} */
 
+		
+
+
 		class Group extends React.Component {
 			constructor(props) {
 				super(props);
 
 				this.state = {
 					winner: '',
-					runnerUp: '',
-					losers: []
+					runnerUp: ''
 				}
 			}
 
-			function changeStatus() {
-				
+			changeStatus(type,name) {
+				switch(type) {
+					case 'winner':
+						this.setState({
+							winner: name
+						});
+						if(this.state.runnerUp == name) { this.setState({ runnerUp: ''})}
+						break;
+					case 'runner-up':
+						this.setState({
+							runnerUp: name
+						});
+						if(this.state.winner == name) { this.setState({ winner: ''})}
+						break;
+				}
+
 			}
+
+		
 
 			renderTeams() {
 				return this.props.group.group.map( (item) => {
-					console.log(item);
 					return (
 						<div className="row" key={item.name}>
 							{item.name}
 							<div className="buttons">
-								<span className="winner btn">1</span>
-								<span className="runner-up btn">2</span>
-								<span className="loser btn">X</span>
-
+								<span className={this.state.winner == item.name ? `winner btn clicked` : `winner btn`} onClick={() => this.changeStatus('winner',item.name)}>1</span>
+								<span className={this.state.runnerUp == item.name ? `runner-up btn clicked` : `runner-up btn`} onClick={() => this.changeStatus('runner-up',item.name)}>2</span>
 							</div>
 							
 						</div>
@@ -71,6 +88,13 @@
 		}
 		
 		class App extends React.Component {
+			constructor(props) {
+				super(props);
+
+				this.state = {
+					winnerA: ''
+				}
+			}
 			render() {
 				return (
 					<div className="main">

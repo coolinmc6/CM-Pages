@@ -26,9 +26,17 @@
   color: gold;
   border-color: gold; }
 
+.winner.clicked {
+  background-color: gold;
+  color: white; }
+
 .runner-up {
   color: silver;
   border-color: silver; }
+
+.runner-up.clicked {
+  background-color: silver;
+  color: white; }
 
 .loser {
   display: inline-block;

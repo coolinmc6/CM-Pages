@@ -444,6 +444,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/css\/worldcup-styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/worldcup-styles-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/data.txt": {
 		"ft": 8192,
 		"oA": 2,
