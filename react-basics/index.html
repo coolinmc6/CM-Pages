@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>World Cup Analysis</title>
+	<title>React Basics</title>
 	<link rel="stylesheet" href="../css/worldcup-styles.css">
 </head>
 <body>
@@ -11,20 +11,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
-	<script src="groups.js"></script>
 	<script type="text/babel">
-
-		
-		/* function Group(props) {
-			
-			return (
-				<div className="group">
-					<h2>{props.group.name}</h2>
-				</div>
-			)
-			
-		} */
-
 
 
 
@@ -84,32 +71,49 @@
 				)
 			}
 		}
+
+		const Header = (props) => {
+			return (
+				<div>HEADER {props.title}</div>
+			)
+		}
 		
 		class App extends React.Component {
 			constructor(props) {
 				super(props);
 
 				this.state = {
-					winnerA: ''
+					term: '',
+					searches: []
 				}
+
+				
+
+
 			}
+			onInputChange(e) {
+				this.setState({ term: e.target.value })
+
+			}
+			addSearch() {
+				var newState = [...this.state.searches, this.state.term];
+				this.setState({term: '', searches: newState});
+			}
+
+			renderSearches() {
+				return this.state.searches.map( (word) => <div key={word}>{word}</div>)
+			}
+
 			render() {
 				return (
 					<div className="main">
-						<div className="left">
-							<Group group={groupA} />
-							<Group group={groupB} />
-							<Group group={groupC} />
-							<Group group={groupD} />	
+						<Header title="Stuff"/>
+						Hello World
+						<input onChange={(e) => this.onInputChange(e)} value={this.state.term}/>
+						<button onClick={() => this.addSearch()}>Search</button>
+						<div>
+							{this.renderSearches()}
 						</div>
-						<div className="right">
-							<Group group={groupE} />
-							<Group group={groupF} />
-							<Group group={groupG} />
-							<Group group={groupH} />	
-						</div>
-						
-						
 					</div>
 				);
 			}
