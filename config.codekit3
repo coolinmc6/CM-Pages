@@ -768,6 +768,18 @@
 		"oAP": "\/javascript30\/day04.html",
 		"oF": 0
 		},
+	"\/javascript30\/day05.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/day05.html",
+		"oF": 0
+		},
+	"\/javascript30\/flex.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/flex.html",
+		"oF": 0
+		},
 	"\/javascript30\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1293,6 +1305,12 @@
 		"oAP": "\/php\/.htaccess",
 		"oF": 0
 		},
+	"\/php\/ajax-test.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/ajax-test.php",
+		"oF": 0
+		},
 	"\/php\/array-sort.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1305,10 +1323,28 @@
 		"oAP": "\/php\/dates.php",
 		"oF": 0
 		},
+	"\/php\/function\/addTimes.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/function\/addTimes.php",
+		"oF": 0
+		},
+	"\/php\/function\/ajax-test.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/function\/ajax-test.php",
+		"oF": 0
+		},
 	"\/php\/generators.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/generators.php",
+		"oF": 0
+		},
+	"\/php\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/index.php",
 		"oF": 0
 		},
 	"\/php\/interview-questions\/index.php": {
@@ -1455,6 +1491,12 @@
 		"oAP": "\/php\/questions.php",
 		"oF": 0
 		},
+	"\/php\/times.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/times.php",
+		"oF": 0
+		},
 	"\/php\/variables.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1521,6 +1563,24 @@
 		"oAP": "\/random\/doubleknot.php",
 		"oF": 0
 		},
+	"\/random\/download-div-pdf.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/random\/download-div-pdf.php",
+		"oF": 0
+		},
+	"\/random\/functions\/db.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/random\/functions\/db.php",
+		"oF": 0
+		},
+	"\/random\/functions\/messages.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/random\/functions\/messages.php",
+		"oF": 0
+		},
 	"\/random\/guid-generator.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -1537,6 +1597,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/random\/json-database.php",
+		"oF": 0
+		},
+	"\/random\/messages.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/random\/messages.php",
 		"oF": 0
 		},
 	"\/random\/min\/test-animate-min.js": {
