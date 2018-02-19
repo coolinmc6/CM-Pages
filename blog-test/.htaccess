@@ -1,0 +1,8 @@
+AddDefaultCharset utf-8
+Options -Indexes
+
+RewriteEngine On
+
+RewriteRule ^home index.php
+RewriteRule ^blog-list blog-list.php
+RewriteRule ^post/([0-9]+)/(.+)/?$ post.php?id=$1
