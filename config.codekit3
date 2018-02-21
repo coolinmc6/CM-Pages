@@ -161,6 +161,30 @@
 		"oAP": "\/blog-test\/post.php",
 		"oF": 0
 		},
+	"\/blog-test\/README.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog-test\/README.html",
+		"oF": 0
+		},
+	"\/blog-test\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/blog-test\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/blog-test\/tinymce\/jquery.tinymce.min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1597,6 +1621,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/day05.html",
+		"oF": 0
+		},
+	"\/javascript30\/day06-CM.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/day06-CM.html",
+		"oF": 0
+		},
+	"\/javascript30\/day06.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/day06.html",
 		"oF": 0
 		},
 	"\/javascript30\/flex.html": {

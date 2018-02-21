@@ -62,10 +62,17 @@
 			}
 			
 			$.post('blog-functions.php', info, function(data) {
-
+				if(data == 1) {
+					alert('Success!!')
+				}
 			})
 
 		})
+
+		// Editing a blog entry
+		setTimeout(function() {
+			tinymce.get('blog-entry').setContent('<h1>This is an H1</h1>')
+		}, 1000)
 
 	</script>
 </body>
