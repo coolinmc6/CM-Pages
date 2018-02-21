@@ -1635,6 +1635,12 @@
 		"oAP": "\/javascript30\/day06.html",
 		"oF": 0
 		},
+	"\/javascript30\/day07.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/day07.html",
+		"oF": 0
+		},
 	"\/javascript30\/flex.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1742,6 +1748,14 @@
 		"oA": 0,
 		"oAP": "\/js-timer.php",
 		"oF": 0
+		},
+	"\/json\/test.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/json\/test-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/jsvideo.js": {
 		"ft": 64,
