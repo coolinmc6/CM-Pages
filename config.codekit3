@@ -1087,6 +1087,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/color-highlighting.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/color-highlighting-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/flexbox.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1645,6 +1655,30 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/day08.html",
+		"oF": 0
+		},
+	"\/javascript30\/day09.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/day09.html",
+		"oF": 0
+		},
+	"\/javascript30\/day10.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/day10.html",
+		"oF": 0
+		},
+	"\/javascript30\/day11.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/day11.html",
+		"oF": 0
+		},
+	"\/javascript30\/day13.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/day13.html",
 		"oF": 0
 		},
 	"\/javascript30\/flex.html": {

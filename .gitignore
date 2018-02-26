@@ -1,4 +1,6 @@
-config.codekit
+config.codekit3
+*config.codekit3
+*.codekit3
 
 node_modules
 react-practice/node_modules
