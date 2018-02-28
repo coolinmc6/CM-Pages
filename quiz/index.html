@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test Quiz Page</title>
+	<link rel="stylesheet" href="prism.css">
+	<style>
+		.main {
+			text-align: center;
+			padding: 10%;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<pre><code class="language-javascript">
+			function balancedParens(string) {
+				return !string.split("").reduce(function(previous, char) {
+			    if(previous < 0) { return previous; }
+			    if( char == "(") { return ++previous; }
+			    if( char == ")") { return --previous; }
+			    return previous;
+			  }, 0);
+			}
+			
+		</code></pre>
+	</div>
+	<script src="prism.js"></script>
+</body>
+</html>

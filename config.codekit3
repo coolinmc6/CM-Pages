@@ -2448,6 +2448,39 @@
 		"oAP": "\/positioning1.php",
 		"oF": 0
 		},
+	"\/quiz\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/quiz\/index.html",
+		"oF": 0
+		},
+	"\/quiz\/prism.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/quiz\/prism-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/quiz\/prism.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/quiz\/min\/prism-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/quiz\/questions.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/quiz\/questions-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/random\/alert.php": {
 		"ft": 8192,
 		"oA": 0,
