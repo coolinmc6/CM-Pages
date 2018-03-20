@@ -7,15 +7,17 @@
 		"uuidString": "649A956D-8690-4637-BE08-50D70CEFC48D"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "26330",
 "files": {
 	"\/.babelrc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.babelrc",
 		"oF": 0
 		},
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
@@ -33,42 +35,49 @@
 		"q": 100
 		},
 	"\/babbles\/.sass-cache\/08a6eae38e8397529bb3aa70dd993a3057bddd04\/styles.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/babbles\/.sass-cache\/08a6eae38e8397529bb3aa70dd993a3057bddd04\/styles.scssc",
 		"oF": 0
 		},
 	"\/babbles\/footer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/babbles\/footer.php",
 		"oF": 0
 		},
 	"\/babbles\/head.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/babbles\/head.php",
 		"oF": 0
 		},
 	"\/babbles\/header.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/babbles\/header.php",
 		"oF": 0
 		},
 	"\/babbles\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/babbles\/index.php",
 		"oF": 0
 		},
 	"\/babbles\/my-profile.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/babbles\/my-profile.php",
 		"oF": 0
 		},
 	"\/babbles\/people-grabber.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/babbles\/people-grabber.php",
@@ -85,12 +94,14 @@
 		"oS": 0
 		},
 	"\/babbles\/sign-in.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/babbles\/sign-in.php",
 		"oF": 0
 		},
 	"\/babbles\/sign-up.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/babbles\/sign-up.php",
@@ -120,58 +131,66 @@
 		"uL": 1
 		},
 	"\/babbles\/user-profile.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/babbles\/user-profile.php",
 		"oF": 0
 		},
 	"\/blog-test\/.htaccess": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/blog-test\/.htaccess",
 		"oF": 0
 		},
 	"\/blog-test\/blog-functions.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/blog-test\/blog-functions.php",
 		"oF": 0
 		},
 	"\/blog-test\/blog-list.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/blog-test\/blog-list.php",
 		"oF": 0
 		},
 	"\/blog-test\/includes\/blog-nav.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/blog-test\/includes\/blog-nav.php",
 		"oF": 0
 		},
 	"\/blog-test\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/blog-test\/index.php",
 		"oF": 0
 		},
 	"\/blog-test\/post.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/blog-test\/post.php",
 		"oF": 0
 		},
 	"\/blog-test\/README.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/blog-test\/README.html",
 		"oF": 0
 		},
 	"\/blog-test\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -187,6 +206,7 @@
 		},
 	"\/blog-test\/tinymce\/jquery.tinymce.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/min\/jquery.tinymce.min-min.js",
@@ -195,10 +215,10 @@
 		"tS": 0
 		},
 	"\/blog-test\/tinymce\/langs\/readme.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -213,6 +233,7 @@
 		"uCM": 0
 		},
 	"\/blog-test\/tinymce\/license.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/blog-test\/tinymce\/license.txt",
@@ -220,6 +241,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/advlist\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/advlist\/min\/plugin.min-min.js",
@@ -229,6 +251,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/anchor\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/anchor\/min\/plugin.min-min.js",
@@ -238,6 +261,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/autolink\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/autolink\/min\/plugin.min-min.js",
@@ -247,6 +271,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/autoresize\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/autoresize\/min\/plugin.min-min.js",
@@ -256,6 +281,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/autosave\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/autosave\/min\/plugin.min-min.js",
@@ -265,6 +291,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/bbcode\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/bbcode\/min\/plugin.min-min.js",
@@ -274,6 +301,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/charmap\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/charmap\/min\/plugin.min-min.js",
@@ -283,6 +311,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/code\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/code\/min\/plugin.min-min.js",
@@ -302,6 +331,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/codesample\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/codesample\/min\/plugin.min-min.js",
@@ -311,6 +341,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/colorpicker\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/colorpicker\/min\/plugin.min-min.js",
@@ -320,6 +351,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/contextmenu\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/contextmenu\/min\/plugin.min-min.js",
@@ -329,6 +361,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/directionality\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/directionality\/min\/plugin.min-min.js",
@@ -466,6 +499,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/emoticons\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/emoticons\/min\/plugin.min-min.js",
@@ -475,6 +509,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/fullpage\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/fullpage\/min\/plugin.min-min.js",
@@ -484,6 +519,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/fullscreen\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/fullscreen\/min\/plugin.min-min.js",
@@ -504,6 +540,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/help\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/help\/min\/plugin.min-min.js",
@@ -513,6 +550,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/hr\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/hr\/min\/plugin.min-min.js",
@@ -522,6 +560,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/image\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/image\/min\/plugin.min-min.js",
@@ -531,6 +570,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/imagetools\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/imagetools\/min\/plugin.min-min.js",
@@ -540,6 +580,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/importcss\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/importcss\/min\/plugin.min-min.js",
@@ -549,6 +590,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/insertdatetime\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/insertdatetime\/min\/plugin.min-min.js",
@@ -558,6 +600,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/legacyoutput\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/legacyoutput\/min\/plugin.min-min.js",
@@ -567,6 +610,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/link\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/link\/min\/plugin.min-min.js",
@@ -576,6 +620,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/lists\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/lists\/min\/plugin.min-min.js",
@@ -585,6 +630,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/media\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/media\/min\/plugin.min-min.js",
@@ -594,6 +640,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/nonbreaking\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/nonbreaking\/min\/plugin.min-min.js",
@@ -603,6 +650,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/noneditable\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/noneditable\/min\/plugin.min-min.js",
@@ -612,6 +660,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/pagebreak\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/pagebreak\/min\/plugin.min-min.js",
@@ -621,6 +670,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/paste\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/paste\/min\/plugin.min-min.js",
@@ -630,6 +680,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/preview\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/preview\/min\/plugin.min-min.js",
@@ -639,6 +690,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/print\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/print\/min\/plugin.min-min.js",
@@ -648,6 +700,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/save\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/save\/min\/plugin.min-min.js",
@@ -657,6 +710,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/searchreplace\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/searchreplace\/min\/plugin.min-min.js",
@@ -666,6 +720,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/spellchecker\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/spellchecker\/min\/plugin.min-min.js",
@@ -675,6 +730,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/tabfocus\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/tabfocus\/min\/plugin.min-min.js",
@@ -684,6 +740,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/table\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/table\/min\/plugin.min-min.js",
@@ -693,6 +750,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/template\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/template\/min\/plugin.min-min.js",
@@ -702,6 +760,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/textcolor\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/textcolor\/min\/plugin.min-min.js",
@@ -711,6 +770,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/textpattern\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/textpattern\/min\/plugin.min-min.js",
@@ -720,6 +780,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/toc\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/toc\/min\/plugin.min-min.js",
@@ -739,6 +800,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/visualblocks\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/visualblocks\/min\/plugin.min-min.js",
@@ -748,6 +810,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/visualchars\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/visualchars\/min\/plugin.min-min.js",
@@ -757,6 +820,7 @@
 		},
 	"\/blog-test\/tinymce\/plugins\/wordcount\/plugin.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/plugins\/wordcount\/min\/plugin.min-min.js",
@@ -795,12 +859,14 @@
 		"oS": 0
 		},
 	"\/blog-test\/tinymce\/skins\/lightgray\/fonts\/tinymce-mobile.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/blog-test\/tinymce\/skins\/lightgray\/fonts\/tinymce-mobile.woff",
 		"oF": 0
 		},
 	"\/blog-test\/tinymce\/skins\/lightgray\/fonts\/tinymce-small.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/blog-test\/tinymce\/skins\/lightgray\/fonts\/tinymce-small.eot",
@@ -817,18 +883,21 @@
 		"prP": 0
 		},
 	"\/blog-test\/tinymce\/skins\/lightgray\/fonts\/tinymce-small.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/blog-test\/tinymce\/skins\/lightgray\/fonts\/tinymce-small.ttf",
 		"oF": 0
 		},
 	"\/blog-test\/tinymce\/skins\/lightgray\/fonts\/tinymce-small.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/blog-test\/tinymce\/skins\/lightgray\/fonts\/tinymce-small.woff",
 		"oF": 0
 		},
 	"\/blog-test\/tinymce\/skins\/lightgray\/fonts\/tinymce.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/blog-test\/tinymce\/skins\/lightgray\/fonts\/tinymce.eot",
@@ -845,12 +914,14 @@
 		"prP": 0
 		},
 	"\/blog-test\/tinymce\/skins\/lightgray\/fonts\/tinymce.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/blog-test\/tinymce\/skins\/lightgray\/fonts\/tinymce.ttf",
 		"oF": 0
 		},
 	"\/blog-test\/tinymce\/skins\/lightgray\/fonts\/tinymce.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/blog-test\/tinymce\/skins\/lightgray\/fonts\/tinymce.woff",
@@ -910,6 +981,7 @@
 		},
 	"\/blog-test\/tinymce\/themes\/inlite\/theme.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/themes\/inlite\/min\/theme.min-min.js",
@@ -919,6 +991,7 @@
 		},
 	"\/blog-test\/tinymce\/themes\/mobile\/theme.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/themes\/mobile\/min\/theme.min-min.js",
@@ -928,6 +1001,7 @@
 		},
 	"\/blog-test\/tinymce\/themes\/modern\/theme.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/themes\/modern\/min\/theme.min-min.js",
@@ -937,6 +1011,7 @@
 		},
 	"\/blog-test\/tinymce\/tinymce.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/blog-test\/tinymce\/min\/tinymce.min-min.js",
@@ -945,46 +1020,52 @@
 		"tS": 0
 		},
 	"\/Bootstrap\/login.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/Bootstrap\/login.php",
 		"oF": 0
 		},
 	"\/Bootstrap\/test1.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/Bootstrap\/test1.php",
 		"oF": 0
 		},
 	"\/carousel.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/carousel.php",
 		"oF": 0
 		},
 	"\/chat-app\/db.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/chat-app\/db.php",
 		"oF": 0
 		},
 	"\/chat-app\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/chat-app\/index.php",
 		"oF": 0
 		},
 	"\/chat-app\/README.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/chat-app\/README.html",
 		"oF": 0
 		},
 	"\/chat-app\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -999,36 +1080,42 @@
 		"uCM": 0
 		},
 	"\/chat-app\/send-msg.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/chat-app\/send-msg.php",
 		"oF": 0
 		},
 	"\/codefights\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/codefights\/index.php",
 		"oF": 0
 		},
 	"\/codefights\/lineup.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/codefights\/lineup.php",
 		"oF": 0
 		},
 	"\/codefights\/roundness.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/codefights\/roundness.php",
 		"oF": 0
 		},
 	"\/cookies\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/cookies\/index.php",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/b796e2a87a7411d20da728d9fa0a1436b05d9796\/stylesheet1.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/.sass-cache\/b796e2a87a7411d20da728d9fa0a1436b05d9796\/stylesheet1.scssc",
@@ -1284,12 +1371,14 @@
 		"oS": 0
 		},
 	"\/data.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/data.txt",
 		"oF": 0
 		},
 	"\/datetime.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/datetime.php",
@@ -1320,18 +1409,21 @@
 		"oS": 1
 		},
 	"\/derek-banas\/oo-javascript.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/derek-banas\/oo-javascript.html",
 		"oF": 0
 		},
 	"\/dropdown.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/dropdown.php",
 		"oF": 0
 		},
 	"\/ES6\/cool-functions.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/ES6\/cool-functions.php",
@@ -1339,6 +1431,7 @@
 		},
 	"\/ES6\/mapping.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/ES6\/min\/mapping-min.js",
@@ -1354,6 +1447,7 @@
 		},
 	"\/ES6\/video7.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/ES6\/min\/video7-min.js",
@@ -1362,60 +1456,70 @@
 		"tS": 0
 		},
 	"\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
 	"\/favicon.xcf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/favicon.xcf",
 		"oF": 0
 		},
 	"\/footer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/footer.php",
 		"oF": 0
 		},
 	"\/functions\/cookie-reset.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/functions\/cookie-reset.php",
 		"oF": 0
 		},
 	"\/functions\/db.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/functions\/db.php",
 		"oF": 0
 		},
 	"\/functions\/testPost.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/functions\/testPost.php",
 		"oF": 0
 		},
 	"\/game-kittens\/game-functions.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/game-kittens\/game-functions.php",
 		"oF": 0
 		},
 	"\/game-kittens\/game.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/game-kittens\/game.php",
 		"oF": 0
 		},
 	"\/game-kittens\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/game-kittens\/index.php",
 		"oF": 0
 		},
 	"\/header.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/header.php",
@@ -1586,174 +1690,217 @@
 		"q": 100
 		},
 	"\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.php",
 		"oF": 0
 		},
 	"\/javascript\/arrays\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript\/arrays\/index.html",
 		"oF": 0
 		},
 	"\/javascript\/functions.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript\/functions.php",
 		"oF": 0
 		},
 	"\/javascript\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript\/index.html",
 		"oF": 0
 		},
 	"\/javascript\/try-catch.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript\/try-catch.html",
 		"oF": 0
 		},
 	"\/javascript30\/day01.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/day01.html",
 		"oF": 0
 		},
 	"\/javascript30\/day04.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/day04.html",
 		"oF": 0
 		},
 	"\/javascript30\/day05.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/day05.html",
 		"oF": 0
 		},
 	"\/javascript30\/day06-CM.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/day06-CM.html",
 		"oF": 0
 		},
 	"\/javascript30\/day06.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/day06.html",
 		"oF": 0
 		},
 	"\/javascript30\/day07.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/day07.html",
 		"oF": 0
 		},
 	"\/javascript30\/day08.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/day08.html",
 		"oF": 0
 		},
 	"\/javascript30\/day09.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/day09.html",
 		"oF": 0
 		},
 	"\/javascript30\/day10.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/day10.html",
 		"oF": 0
 		},
 	"\/javascript30\/day11.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/day11.html",
 		"oF": 0
 		},
 	"\/javascript30\/day13.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/day13.html",
 		"oF": 0
 		},
+	"\/javascript30\/day14.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/day14.html",
+		"oF": 0
+		},
+	"\/javascript30\/day18.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/javascript30\/day18.html",
+		"oF": 0
+		},
 	"\/javascript30\/flex.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/flex.html",
 		"oF": 0
 		},
 	"\/javascript30\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/index.html",
 		"oF": 0
 		},
 	"\/javascript30\/sounds\/boom.wav": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/sounds\/boom.wav",
 		"oF": 0
 		},
 	"\/javascript30\/sounds\/clap.wav": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/sounds\/clap.wav",
 		"oF": 0
 		},
 	"\/javascript30\/sounds\/hihat.wav": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/sounds\/hihat.wav",
 		"oF": 0
 		},
 	"\/javascript30\/sounds\/kick.wav": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/sounds\/kick.wav",
 		"oF": 0
 		},
 	"\/javascript30\/sounds\/openhat.wav": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/sounds\/openhat.wav",
 		"oF": 0
 		},
 	"\/javascript30\/sounds\/ride.wav": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/sounds\/ride.wav",
 		"oF": 0
 		},
 	"\/javascript30\/sounds\/snare.wav": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/sounds\/snare.wav",
 		"oF": 0
 		},
 	"\/javascript30\/sounds\/tink.wav": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/sounds\/tink.wav",
 		"oF": 0
 		},
 	"\/javascript30\/sounds\/tom.wav": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/javascript30\/sounds\/tom.wav",
 		"oF": 0
 		},
 	"\/JS-es2015.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/JS-es2015.php",
 		"oF": 0
 		},
 	"\/JS-Game\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/JS-Game\/index.php",
@@ -1761,6 +1908,7 @@
 		},
 	"\/JS-Game\/min\/script-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/JS-Game\/min\/min\/script-min-min.js",
@@ -1770,6 +1918,7 @@
 		},
 	"\/JS-Game\/script.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/JS-Game\/min\/script-min.js",
@@ -1778,12 +1927,14 @@
 		"tS": 0
 		},
 	"\/JS-logic.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/JS-logic.php",
 		"oF": 0
 		},
 	"\/js-timer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/js-timer.php",
@@ -1799,6 +1950,7 @@
 		},
 	"\/jsvideo.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/min\/jsvideo-min.js",
@@ -1807,12 +1959,14 @@
 		"tS": 0
 		},
 	"\/JSvideo1.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/JSvideo1.php",
 		"oF": 0
 		},
 	"\/jump.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/jump.php",
@@ -1820,6 +1974,7 @@
 		},
 	"\/lib\/addItem.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/lib\/min\/addItem-min.js",
@@ -1829,6 +1984,7 @@
 		},
 	"\/lib\/test.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/lib\/min\/test-min.js",
@@ -1843,12 +1999,14 @@
 		"oF": 0
 		},
 	"\/notifications\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/notifications\/index.php",
 		"oF": 0
 		},
 	"\/notifications\/notifications.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/notifications\/notifications.php",
@@ -1863,64 +2021,73 @@
 		"oS": 1
 		},
 	"\/parallax.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parallax.php",
 		"oF": 0
 		},
 	"\/parallax2.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parallax2.php",
 		"oF": 0
 		},
 	"\/passwords.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/passwords.php",
 		"oF": 0
 		},
 	"\/PHP-and-MySQL\/ch02\/form.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-and-MySQL\/ch02\/form.php",
 		"oF": 0
 		},
 	"\/PHP-and-MySQL\/ch02\/handle_form.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-and-MySQL\/ch02\/handle_form.php",
 		"oF": 0
 		},
 	"\/PHP-and-MySQL\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-and-MySQL\/index.php",
 		"oF": 0
 		},
 	"\/PHP-and-MySQL\/SQLgenerator.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-and-MySQL\/SQLgenerator.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch17-authentication-php-mysql\/.htaccess": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/PHP-Web-Dev-4th\/ch17-authentication-php-mysql\/.htaccess",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch17-authentication-php-mysql\/ch17_notes.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch17-authentication-php-mysql\/ch17_notes.html",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch17-authentication-php-mysql\/ch17_notes.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1935,52 +2102,59 @@
 		"uCM": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch17-authentication-php-mysql\/content.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch17-authentication-php-mysql\/content.html",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch17-authentication-php-mysql\/http.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch17-authentication-php-mysql\/http.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch17-authentication-php-mysql\/rejection.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch17-authentication-php-mysql\/rejection.html",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch17-authentication-php-mysql\/secret.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch17-authentication-php-mysql\/secret.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch17-authentication-php-mysql\/secretdb.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch17-authentication-php-mysql\/secretdb.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch23-session-control\/authmain.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch23-session-control\/authmain.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch23-session-control\/ch23_notes.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch23-session-control\/ch23_notes.html",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch23-session-control\/ch23_notes.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1995,36 +2169,42 @@
 		"uCM": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch23-session-control\/logout.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch23-session-control\/logout.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch23-session-control\/members_only.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch23-session-control\/members_only.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch23-session-control\/page1.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch23-session-control\/page1.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch23-session-control\/page2.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch23-session-control\/page2.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch23-session-control\/page3.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch23-session-control\/page3.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch27-user-auth\/add_bms.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch27-user-auth\/add_bms.php",
@@ -2039,22 +2219,24 @@
 		"opt": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch27-user-auth\/bookmark_fns.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch27-user-auth\/bookmark_fns.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch27-user-auth\/ch27_notes.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch27-user-auth\/ch27_notes.html",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch27-user-auth\/ch27_notes.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -2069,78 +2251,91 @@
 		"uCM": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch27-user-auth\/change_passwd.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch27-user-auth\/change_passwd.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch27-user-auth\/data_valid_fns.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch27-user-auth\/data_valid_fns.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch27-user-auth\/db_fns.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch27-user-auth\/db_fns.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch27-user-auth\/forgot_form.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch27-user-auth\/forgot_form.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch27-user-auth\/forgot_passwd.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch27-user-auth\/forgot_passwd.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch27-user-auth\/login.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch27-user-auth\/login.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch27-user-auth\/logout.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch27-user-auth\/logout.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch27-user-auth\/member.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch27-user-auth\/member.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch27-user-auth\/output_fns.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch27-user-auth\/output_fns.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch27-user-auth\/register_form.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch27-user-auth\/register_form.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch27-user-auth\/register_new.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch27-user-auth\/register_new.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch27-user-auth\/url_fns.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch27-user-auth\/url_fns.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch27-user-auth\/user_auth_fns.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch27-user-auth\/user_auth_fns.php",
@@ -2156,6 +2351,7 @@
 		},
 	"\/PHP-Web-Dev-4th\/ch34-ajax\/ajax_functions.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch34-ajax\/min\/ajax_functions-min.js",
@@ -2164,6 +2360,7 @@
 		"tS": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch34-ajax\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch34-ajax\/index.php",
@@ -2171,6 +2368,7 @@
 		},
 	"\/PHP-Web-Dev-4th\/ch34-ajax\/min\/ajax_functions-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/PHP-Web-Dev-4th\/ch34-ajax\/min\/min\/ajax_functions-min-min.js",
@@ -2179,22 +2377,24 @@
 		"tS": 0
 		},
 	"\/PHP-Web-Dev-4th\/ch34-ajax\/servertime.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/ch34-ajax\/servertime.php",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/general_notes.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/PHP-Web-Dev-4th\/general_notes.html",
 		"oF": 0
 		},
 	"\/PHP-Web-Dev-4th\/general_notes.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -2209,178 +2409,206 @@
 		"uCM": 0
 		},
 	"\/PHP-Web-Dev-4th\/PHPandMySQLWebDevelopmentFourthEdition.pdf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/PHP-Web-Dev-4th\/PHPandMySQLWebDevelopmentFourthEdition.pdf",
 		"oF": 0
 		},
 	"\/php\/.htaccess": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/.htaccess",
 		"oF": 0
 		},
 	"\/php\/ajax-test.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/ajax-test.php",
 		"oF": 0
 		},
 	"\/php\/array-sort.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/array-sort.php",
 		"oF": 0
 		},
 	"\/php\/dates.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/dates.php",
 		"oF": 0
 		},
 	"\/php\/empty.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/empty.php",
 		"oF": 0
 		},
 	"\/php\/foreach.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/foreach.php",
 		"oF": 0
 		},
 	"\/php\/function\/addTimes.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/function\/addTimes.php",
 		"oF": 0
 		},
 	"\/php\/function\/ajax-test.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/function\/ajax-test.php",
 		"oF": 0
 		},
 	"\/php\/generators.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/generators.php",
 		"oF": 0
 		},
 	"\/php\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/index.php",
 		"oF": 0
 		},
 	"\/php\/interview-questions\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/interview-questions\/index.php",
 		"oF": 0
 		},
 	"\/php\/interview-questions\/strings.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/interview-questions\/strings.php",
 		"oF": 0
 		},
 	"\/php\/interview-questions\/template.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/interview-questions\/template.php",
 		"oF": 0
 		},
 	"\/php\/interview-questions\/test.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/interview-questions\/test.php",
 		"oF": 0
 		},
 	"\/php\/interview-questions\/variable-reference.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/interview-questions\/variable-reference.php",
 		"oF": 0
 		},
 	"\/php\/oop-practice.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/oop-practice.php",
 		"oF": 0
 		},
 	"\/php\/OOP1\/Bird.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/OOP1\/Bird.php",
 		"oF": 0
 		},
 	"\/php\/OOP1\/Chest.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/OOP1\/Chest.php",
 		"oF": 0
 		},
 	"\/php\/OOP1\/classes\/Adder.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/OOP1\/classes\/Adder.php",
 		"oF": 0
 		},
 	"\/php\/OOP1\/classes\/Calculator.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/OOP1\/classes\/Calculator.php",
 		"oF": 0
 		},
 	"\/php\/OOP1\/classes\/Divider.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/OOP1\/classes\/Divider.php",
 		"oF": 0
 		},
 	"\/php\/OOP1\/classes\/Multiplier.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/OOP1\/classes\/Multiplier.php",
 		"oF": 0
 		},
 	"\/php\/OOP1\/classes\/OperatorInterface.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/OOP1\/classes\/OperatorInterface.php",
 		"oF": 0
 		},
 	"\/php\/OOP1\/classes\/Subtractor.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/OOP1\/classes\/Subtractor.php",
 		"oF": 0
 		},
 	"\/php\/OOP1\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/OOP1\/index.php",
 		"oF": 0
 		},
 	"\/php\/OOP1\/Lock.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/OOP1\/Lock.php",
 		"oF": 0
 		},
 	"\/php\/OOP1\/notes.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/OOP1\/notes.html",
 		"oF": 0
 		},
 	"\/php\/OOP1\/notes.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -2395,60 +2623,70 @@
 		"uCM": 0
 		},
 	"\/php\/OOP1\/Penguin.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/OOP1\/Penguin.php",
 		"oF": 0
 		},
 	"\/php\/OOP1\/Person.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/OOP1\/Person.php",
 		"oF": 0
 		},
 	"\/php\/OOP1\/Pigeon.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/OOP1\/Pigeon.php",
 		"oF": 0
 		},
 	"\/php\/questions.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/questions.php",
 		"oF": 0
 		},
 	"\/php\/times.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/times.php",
 		"oF": 0
 		},
 	"\/php\/variables.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/variables.php",
 		"oF": 0
 		},
 	"\/php\/xss-test.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/xss-test.php",
 		"oF": 0
 		},
 	"\/position-notes.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/position-notes.php",
 		"oF": 0
 		},
 	"\/positioning1.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/positioning1.php",
 		"oF": 0
 		},
 	"\/quiz\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/quiz\/index.html",
@@ -2466,9 +2704,20 @@
 		},
 	"\/quiz\/prism.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/quiz\/min\/prism-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/quiz\/prism2.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/quiz\/min\/prism2-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2482,90 +2731,105 @@
 		"oS": 1
 		},
 	"\/random\/alert.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/random\/alert.php",
 		"oF": 0
 		},
 	"\/random\/array-maker.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/random\/array-maker.php",
 		"oF": 0
 		},
 	"\/random\/birthdays.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/random\/birthdays.php",
 		"oF": 0
 		},
 	"\/random\/capture-url.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/random\/capture-url.php",
 		"oF": 0
 		},
 	"\/random\/check.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/random\/check.php",
 		"oF": 0
 		},
 	"\/random\/console.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/random\/console.php",
 		"oF": 0
 		},
 	"\/random\/datatables.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/random\/datatables.php",
 		"oF": 0
 		},
 	"\/random\/doubleknot.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/random\/doubleknot.php",
 		"oF": 0
 		},
 	"\/random\/download-div-pdf.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/random\/download-div-pdf.php",
 		"oF": 0
 		},
 	"\/random\/functions\/db.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/random\/functions\/db.php",
 		"oF": 0
 		},
 	"\/random\/functions\/messages.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/random\/functions\/messages.php",
 		"oF": 0
 		},
 	"\/random\/guid-generator.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/random\/guid-generator.php",
 		"oF": 0
 		},
 	"\/random\/javascript.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/random\/javascript.php",
 		"oF": 0
 		},
 	"\/random\/json-database.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/random\/json-database.php",
 		"oF": 0
 		},
 	"\/random\/messages.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/random\/messages.php",
@@ -2573,6 +2837,7 @@
 		},
 	"\/random\/min\/test-animate-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/random\/min\/min\/test-animate-min-min.js",
@@ -2581,36 +2846,42 @@
 		"tS": 0
 		},
 	"\/random\/passwords.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/random\/passwords.php",
 		"oF": 0
 		},
 	"\/random\/percentage.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/random\/percentage.php",
 		"oF": 0
 		},
 	"\/random\/printable-table.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/random\/printable-table.php",
 		"oF": 0
 		},
 	"\/random\/quotes.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/random\/quotes.php",
 		"oF": 0
 		},
 	"\/random\/spincar.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/random\/spincar.php",
 		"oF": 0
 		},
 	"\/random\/state.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/random\/state.php",
@@ -2628,6 +2899,7 @@
 		},
 	"\/random\/test-animate.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/random\/min\/test-animate-min.js",
@@ -2636,30 +2908,35 @@
 		"tS": 0
 		},
 	"\/random\/test-animate.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/random\/test-animate.php",
 		"oF": 0
 		},
 	"\/random\/toast.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/random\/toast.php",
 		"oF": 0
 		},
 	"\/random\/which.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/random\/which.php",
 		"oF": 0
 		},
 	"\/random\/worldcup.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/random\/worldcup.php",
 		"oF": 0
 		},
 	"\/react-basics\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/react-basics\/index.html",
@@ -2667,6 +2944,7 @@
 		},
 	"\/react-practice\/app\/components\/app.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/react-practice\/app\/components\/min\/app-min.js",
@@ -2676,6 +2954,7 @@
 		},
 	"\/react-practice\/app\/index.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/react-practice\/app\/min\/index-min.js",
@@ -2685,6 +2964,7 @@
 		},
 	"\/react-practice\/app\/min\/index-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/react-practice\/app\/min\/min\/index-min-min.js",
@@ -2693,6 +2973,7 @@
 		"tS": 0
 		},
 	"\/react-practice\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/react-practice\/index.php",
@@ -2700,6 +2981,7 @@
 		},
 	"\/react-practice\/min\/webpack.config-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/react-practice\/min\/min\/webpack.config-min-min.js",
@@ -2717,6 +2999,7 @@
 		},
 	"\/react-practice\/public\/bundle.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/react-practice\/public\/min\/bundle-min.js",
@@ -2726,6 +3009,7 @@
 		},
 	"\/react-practice\/public\/min\/bundle-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/react-practice\/public\/min\/min\/bundle-min-min.js",
@@ -2735,6 +3019,7 @@
 		},
 	"\/react-practice\/webpack.config.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/react-practice\/min\/webpack.config-min.js",
@@ -2743,10 +3028,10 @@
 		"tS": 0
 		},
 	"\/readme.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -2762,6 +3047,7 @@
 		},
 	"\/ruby\/min\/stuff-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/ruby\/min\/min\/stuff-min-min.js",
@@ -2771,6 +3057,7 @@
 		},
 	"\/ruby\/stuff.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/ruby\/min\/stuff-min.js",
@@ -2779,12 +3066,14 @@
 		"tS": 0
 		},
 	"\/ruby\/test.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/ruby\/test.rb",
 		"oF": 0
 		},
 	"\/sass-test1.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sass-test1.php",
@@ -2792,6 +3081,7 @@
 		},
 	"\/src\/addItem.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/src\/min\/addItem-min.js",
@@ -2800,6 +3090,7 @@
 		"tS": 0
 		},
 	"\/src\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/src\/index.php",
@@ -2807,6 +3098,7 @@
 		},
 	"\/src\/test.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/src\/min\/test-min.js",
@@ -2815,12 +3107,14 @@
 		"tS": 0
 		},
 	"\/stretchy-navigation\/add.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/stretchy-navigation\/add.html",
 		"oF": 0
 		},
 	"\/stretchy-navigation\/add2.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/stretchy-navigation\/add2.php",
@@ -2857,6 +3151,7 @@
 		"oS": 0
 		},
 	"\/stretchy-navigation\/edit.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/stretchy-navigation\/edit.html",
@@ -2904,6 +3199,7 @@
 		"q": 100
 		},
 	"\/stretchy-navigation\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/stretchy-navigation\/index.html",
@@ -2911,6 +3207,7 @@
 		},
 	"\/stretchy-navigation\/js\/jquery-2.1.4.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stretchy-navigation\/js\/min\/jquery-2.1.4-min.js",
@@ -2920,6 +3217,7 @@
 		},
 	"\/stretchy-navigation\/js\/main.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stretchy-navigation\/js\/min\/main-min.js",
@@ -2929,6 +3227,7 @@
 		},
 	"\/stretchy-navigation\/js\/min\/main-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/stretchy-navigation\/js\/min\/min\/main-min-min.js",
@@ -2938,6 +3237,7 @@
 		},
 	"\/stretchy-navigation\/js\/modernizr.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stretchy-navigation\/js\/min\/modernizr-min.js",
@@ -2985,10 +3285,10 @@
 		"uL": 1
 		},
 	"\/stretchy-navigation\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -3026,6 +3326,7 @@
 		"oS": 0
 		},
 	"\/stupid-passwords.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/stupid-passwords.php",
@@ -3045,36 +3346,42 @@
 		"uL": 1
 		},
 	"\/sweet-css\/flexbox.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sweet-css\/flexbox.php",
 		"oF": 0
 		},
 	"\/sweet-css\/font-awesome.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sweet-css\/font-awesome.php",
 		"oF": 0
 		},
 	"\/sweet-css\/random.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sweet-css\/random.php",
 		"oF": 0
 		},
 	"\/sweet-css\/read-progress.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sweet-css\/read-progress.php",
 		"oF": 0
 		},
 	"\/sweet-css\/slidein.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sweet-css\/slidein.php",
 		"oF": 0
 		},
 	"\/sweet-css\/spinners.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sweet-css\/spinners.php",
@@ -3094,18 +3401,21 @@
 		"uL": 1
 		},
 	"\/Udemy-Chat-php-ajax\/chat.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/Udemy-Chat-php-ajax\/chat.php",
 		"oF": 0
 		},
 	"\/Udemy-Chat-php-ajax\/db.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/Udemy-Chat-php-ajax\/db.php",
 		"oF": 0
 		},
 	"\/Udemy-Chat-php-ajax\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/Udemy-Chat-php-ajax\/index.php",
@@ -3123,6 +3433,7 @@
 		},
 	"\/worldcup\/groups.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/worldcup\/min\/groups-min.js",
@@ -3131,6 +3442,7 @@
 		"tS": 0
 		},
 	"\/worldcup\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/worldcup\/index.html",
@@ -3138,6 +3450,7 @@
 		},
 	"\/worldcup\/min\/groups-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/worldcup\/min\/min\/groups-min-min.js",
@@ -3175,6 +3488,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -3571,6 +3885,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -3578,6 +3896,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -3675,6 +3997,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -3691,9 +4017,17 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -3718,6 +4052,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -3751,9 +4089,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -3783,6 +4121,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -3792,14 +4134,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -3822,6 +4156,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -4367,6 +4705,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -4435,6 +4777,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -4474,6 +4820,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -4887,7 +5237,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -4920,6 +5271,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -4961,7 +5313,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -4993,13 +5346,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -5008,7 +5361,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -5028,7 +5382,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -5056,7 +5411,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -5103,9 +5459,11 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
